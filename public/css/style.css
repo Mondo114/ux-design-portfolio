@@ -3,7 +3,7 @@ body, html {
 }
   
   body {
-    /* background: rgb(251, 255, 252); */
+    background: rgb(250, 254, 255);
 }
 
 .banner {
@@ -12,7 +12,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("../images/ux-banner.jpg");
+    background: url("../images/portfolio-banner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -36,8 +36,8 @@ body, html {
     font-weight: bold;
     background-image: linear-gradient(-90deg, rgb(118, 235, 177), rgb(150, 232, 235),  rgb(148, 246, 250), rgb(231, 197, 154), rgb(230, 179, 118));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
+    border-bottom: 3px solid rgb(60, 47, 38);
+    border-top: 3px solid rgb(60, 47, 38);
 }
 
 ul {
@@ -63,5 +63,44 @@ ul {
 }
 
 .space {
-    height: 2000px;
+    height: 1000px;
+}
+
+.contact-section {
+    background-image: linear-gradient(-90deg, rgb(118, 235, 177), rgb(150, 232, 235),  rgb(148, 246, 250), rgb(231, 197, 154), rgb(230, 179, 118));
+    height: 300px;
+    border-top: 3px solid rgb(60, 47, 38);
+}
+
+.contact-items {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-items a {
+    margin: 200px 10px 0px 10px;
+}
+
+.contact-items img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.icon:active {
+    transform: scale(0.9, 0.9);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 18px;
+    color: rgba(60, 47, 38, 0.534);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
 }
