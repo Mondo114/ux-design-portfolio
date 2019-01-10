@@ -34,7 +34,7 @@ body, html {
 .nav {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    background-image: linear-gradient(-90deg, rgb(118, 235, 177), rgb(150, 232, 235),  rgb(148, 246, 250), rgb(231, 197, 154), rgb(230, 179, 118));
+    background-image: linear-gradient(-90deg, rgb(137, 104, 59), rgb(129, 201, 177), rgb(129, 169, 201), rgb(129, 201, 177), rgb(254, 219, 138));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
     border-bottom: 3px solid rgb(60, 47, 38);
     border-top: 3px solid rgb(60, 47, 38);
@@ -67,7 +67,7 @@ ul {
 }
 
 .contact-section {
-    background-image: linear-gradient(-90deg, rgb(118, 235, 177), rgb(150, 232, 235),  rgb(148, 246, 250), rgb(231, 197, 154), rgb(230, 179, 118));
+    background-image: linear-gradient(-90deg, rgb(137, 104, 59), rgb(129, 201, 177), rgb(129, 169, 201), rgb(129, 201, 177), rgb(254, 219, 138));
     height: 300px;
     border-top: 3px solid rgb(60, 47, 38);
 }
@@ -99,7 +99,7 @@ ul {
 .footer {
     text-align: center;
     margin-top: 18px;
-    color: rgba(60, 47, 38, 0.534);
+    color: rgba(60, 47, 38, 0.7);
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: bold;
