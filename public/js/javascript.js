@@ -11,7 +11,7 @@ $(document).ready(function () {
         window.location = "http://localhost:3000/about.html";
     });
 
-     $("#contact-nav").on("click", function (event) {
+    $("#contact-nav").on("click", function (event) {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top - 60
         }, 'slow');
