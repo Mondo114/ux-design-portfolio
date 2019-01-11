@@ -146,32 +146,23 @@ li a {
 }
 
 .btn:hover {
+    color: white;
     transform: scale(1.1, 1.1);
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
     outline: none !important;
 }
 
 .btn:active {
+    color: white;
     transform: scale(0.9, 0.9);
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
     outline: none !important;
 }
 
 .btn:focus {
+    color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     outline: none !important;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: white;
-}
-
-a:active {
-    color: white;
 }
 
 .footer-section {
