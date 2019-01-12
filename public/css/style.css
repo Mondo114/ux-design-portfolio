@@ -17,7 +17,7 @@ a:hover {
 }
 
 .banner {
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,7 @@ a:hover {
 }
 
 .nav {
+    margin-top: -78px;
     background: linear-gradient(-90deg, rgb(137, 104, 59), rgb(129, 169, 201), rgb(160, 245, 217), rgb(129, 169, 201), rgb(254, 219, 138));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
     border-bottom: 3px solid rgb(60, 47, 38);
@@ -68,6 +69,7 @@ li a {
 }
 
 #home-nav,
+#portfolio-nav,
 #about-nav,
 #contact-nav {
     padding: 1rem 3rem;
