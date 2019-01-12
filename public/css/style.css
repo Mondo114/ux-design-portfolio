@@ -208,7 +208,7 @@ li a {
     padding-top: 30px;
     text-align: center;
     background: linear-gradient(-90deg, rgb(137, 104, 59), rgb(129, 169, 201), rgb(160, 245, 217), rgb(129, 169, 201), rgb(254, 219, 138));
-    height: 320px;
+    height: 344px;
     border-top: 3px solid rgb(60, 47, 38);
 }
 
@@ -239,7 +239,7 @@ li a {
 }
 
 .jelly {
-    max-width: 60px;
+    max-width: 80px;
     padding-top: 20px;
 }
 
