@@ -89,13 +89,8 @@ $(document).ready(function () {
     // About
     $("#about-nav-about").on("click", function (event) {
         $('html,body').animate({
-            scrollTop: $("#home-connect").offset().top
+            scrollTop: $("#about-connect").offset().top
         }, 'slow');
-    });
-
-    // Home Page Portfolio Nav Color Change
-    $("#portfolio-nav").on("click", function (event) {
-        $('.nav-link-portfolio').css('color', 'white');
     });
 
      // My Web Development Portfolio
@@ -121,4 +116,9 @@ $(document).ready(function () {
     // New 2 Dev
     // $(".new2dev-thumb").on('click', function () {
     //     window.open("https://new2dev.com/", "_blank");
+    // });
+
+     // Home Page Portfolio Nav Color Change
+    // $("#portfolio-nav").on("click", function (event) {
+    //     $('.nav-link-portfolio').css('color', 'white');
     // });

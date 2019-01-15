@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: rgb(102, 65, 206);
+    color: rgb(26, 77, 187);
 }
 
 a:hover {
@@ -86,18 +86,6 @@ li a {
 .nav-link {
     color: rgb(60, 47, 38);
     font-weight: bold;
-}
-
-.nav-link-about {
-    color: white;
-}
-
-.nav-link-portfolio:focus {
-    color: white !important;
-}
-
-.nav-link-portfolio:visited {
-    color: white !important;
 }
 
 .nav-link:hover {
@@ -328,8 +316,23 @@ li a {
     padding-top: 30px;
     text-align: center;
     background: linear-gradient(-90deg, rgb(137, 104, 59), rgb(129, 169, 201), rgb(160, 245, 217), rgb(129, 169, 201), rgb(254, 219, 138));
-    height: 344px;
+    height: 370px;
     border-top: 3px solid rgb(60, 47, 38);
+}
+
+.footer-title {
+    color: rgb(60, 47, 38);
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-family: 'Bahiana', cursive;
+}
+
+.footer-top {
+    padding-top: 30px;
+}
+
+.jelly {
+    max-width: 80px;
 }
 
 .footer-contact {
@@ -338,7 +341,7 @@ li a {
 }
 
 .footer-items {
-    margin: 22px;
+    margin-top: 54px;
 }
 
 .footer-items a {
@@ -356,11 +359,6 @@ li a {
 
 .icon:active {
     transform: scale(0.9, 0.9);
-}
-
-.jelly {
-    max-width: 80px;
-    padding-top: 20px;
 }
 
 .copyright {
