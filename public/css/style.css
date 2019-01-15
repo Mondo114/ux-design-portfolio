@@ -36,6 +36,21 @@ a:hover {
     background-size: cover;
 }
 
+.about-banner {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/watercolor.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .banner-title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 80px;
@@ -88,6 +103,18 @@ li a {
     font-weight: bold;
 }
 
+.nav-link-about {
+    color: white;
+}
+
+.nav-link-portfolio:focus {
+    color: white !important;
+}
+
+.nav-link-portfolio:visited {
+    color: white !important;
+}
+
 .nav-link:hover {
     cursor: pointer;
     transform: scale(1.1, 1.1);
@@ -109,16 +136,17 @@ li a {
 
 .portfolio-title {
     color: rgb(60, 47, 38);
-    /* font-size: 40px; */
+    font-size: 80px;
+    letter-spacing: 0.2em;
     text-align: center;
-    padding: 90px 0 40px 0;
-    font-family: 'Raleway', sans-serif;
+    padding: 90px 0 20px 0;
+    font-family: 'Bahiana', cursive;
 }
 
 .thumb {
     margin-bottom: 20px;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-image: url();
     border-radius: 10px;
     background-position: center 0;

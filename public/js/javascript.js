@@ -93,6 +93,12 @@ $(document).ready(function () {
         }, 'slow');
     });
 
+    // Home Page Portfolio Nav Color Change
+    $("#portfolio-nav").on("click", function (event) {
+        $('.nav-link-portfolio').css('color', 'white');
+    });
+
+
 });
 
 
