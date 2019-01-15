@@ -82,6 +82,17 @@ $(document).ready(function () {
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
     });
+
+
+    // About Page Links
+
+    // About
+    $("#about-nav-about").on("click", function (event) {
+        $('html,body').animate({
+            scrollTop: $("#home-connect").offset().top
+        }, 'slow');
+    });
+
 });
 
 
