@@ -98,6 +98,10 @@ $(document).ready(function () {
         $('.nav-link-portfolio').css('color', 'white');
     });
 
+     // My Web Development Portfolio
+     $(".webdev-thumb").on('click', function () {
+        window.open("https://brenton-jenkins-portfolio-2.herokuapp.com/", "_blank");
+    });
 
 });
 

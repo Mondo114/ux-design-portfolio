@@ -129,6 +129,7 @@ li a {
 }
 
 .thumb {
+    cursor: pointer;
     margin-bottom: 20px;
     width: 400px;
     height: 300px;
@@ -192,6 +193,10 @@ li a {
     background-image: url(../images/new2dev-thumbnail.png);
 }
 
+.webdev-thumb {
+    background-image: url(../images/webdev-thumbnail.png);
+}
+
 .thumbnail-section {
     color: rgb(60, 47, 38);
     margin-bottom: 80px;
@@ -220,7 +225,7 @@ li a {
 
 .btn-portfolio {
     margin: 20px auto 0px auto;
-    width: 135px;
+    width: 134px;
 }
 
 .portfolio-container {
@@ -398,13 +403,16 @@ li a {
 
 .portrait {
     width: 80%;
+    border-radius: 10px;
 }
 
 .about-paragraph {
     font-weight: 500;
 }
 
-
+.development-section {
+    padding-top: 100px;;
+}
 
 
 
