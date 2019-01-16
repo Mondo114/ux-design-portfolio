@@ -91,12 +91,12 @@ $(document).ready(function () {
     });
 
        // Antlers and Acorns
-     $(".haley-thumb").on('click', function () {
+     $(".antlersandacorns-thumb").on('click', function () {
         window.open("https://www.antlersandacorns.com/", "_blank");
     });
 
     // New 2 Dev
-    $(".new2dev-thumb").on('click', function () {
+    $(".new2dev-site-thumb").on('click', function () {
         window.open("https://new2dev.com/", "_blank");
     });
 
