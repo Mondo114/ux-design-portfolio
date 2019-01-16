@@ -113,7 +113,7 @@ li a {
     letter-spacing: 0.2em;
     text-align: center;
     padding: 90px 0 20px 0;
-    font-family: 'Bahiana', cursive;
+    font-family: 'Bahiana', sans-serif;
 }
 
 .thumb {
@@ -159,6 +159,7 @@ li a {
 
 .flexafont-thumb {
     background-image: url(../images/flexafont-thumbnail.png);
+    background-position: center 50%;
 }
 
 .tulum-thumb {
@@ -173,18 +174,6 @@ li a {
     background-image: url(../images/new2dev-thumbnail.png);
 }
 
-.developer-thumb {
-    background-image: url(../images/developer-thumbnail.png);
-}
-
-.new2dev-thumb {
-    background-image: url(../images/new2dev-thumbnail.png);
-}
-
-.webdev-thumb {
-    background-image: url(../images/webdev-thumbnail.png);
-}
-
 .thumbnail-section {
     color: rgb(60, 47, 38);
     margin-bottom: 80px;
@@ -196,6 +185,10 @@ li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.thumbnail-description {
+    font-weight: 500;
 }
 
 .btn {
@@ -303,7 +296,7 @@ li a {
     letter-spacing: 0.2em;
     text-align: center;
     padding: 12px 0 20px 0;
-    font-family: 'Bahiana', cursive;
+    font-family: 'Bahiana', sans-serif;
 }
 
 .skill-item {
@@ -324,11 +317,12 @@ li a {
     color: rgb(60, 47, 38);
     letter-spacing: 0.2em;
     text-align: center;
-    font-family: 'Bahiana', cursive;
+    font-family: 'Bahiana', sans-serif;
 }
 
 .footer-top {
     padding-top: 30px;
+    font-weight: 500;
 }
 
 .jelly {
@@ -410,6 +404,10 @@ li a {
 
 .development-section {
     padding-top: 100px;;
+}
+
+.webdev-thumb {
+    background-image: url(../images/webdev-thumbnail.png);
 }
 
 

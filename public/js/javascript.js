@@ -83,6 +83,13 @@ $(document).ready(function () {
         }, 'slow');
     });
 
+     // Top
+     $("#btn-top").on("click", function (event) {
+        $('html,body').animate({
+            scrollTop: $("#home-connect").offset().top
+        }, 'slow');
+    });
+
 
     // About Page Links
 
