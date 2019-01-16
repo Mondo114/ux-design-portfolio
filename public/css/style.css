@@ -219,6 +219,7 @@ li a {
 
 .project-title {
     padding-top: 128px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -232,7 +233,7 @@ li a {
     padding-top: 20px;
 }
 
-.microgurt-section {
+.content-section {
     white-space: pre-line;
 }
 
@@ -254,7 +255,7 @@ li a {
     padding: 20px;
 }
 
-.microgurt-wireframe {
+.content-structure {
     width: 100%;
     padding: 40px;
 }
@@ -362,7 +363,7 @@ li a {
 
 
 /* =============================== */
-/* About Page Only */
+/* About Page */
 /* =============================== */
 
 .about-banner {
@@ -398,7 +399,7 @@ li a {
     border-radius: 10px;
 }
 
-.about-paragraph {
+.paragraph-structure {
     font-weight: 500;
 }
 
@@ -411,6 +412,13 @@ li a {
 }
 
 
+/* =============================== */
+/* Portfolio Pages */
+/* =============================== */
+
+.first-paragraph {
+    padding-top: 20px;
+}
 
 
 
