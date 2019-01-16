@@ -90,6 +90,16 @@ $(document).ready(function () {
         }, 'slow');
     });
 
+       // Antlers and Acorns
+     $(".haley-thumb").on('click', function () {
+        window.open("https://www.antlersandacorns.com/", "_blank");
+    });
+
+    // New 2 Dev
+    $(".new2dev-thumb").on('click', function () {
+        window.open("https://new2dev.com/", "_blank");
+    });
+
 
     // About Page Links
 
@@ -109,23 +119,3 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-/////////////////////
-
-     // Antlers and Acorns
-    //  $(".haley-thumb").on('click', function () {
-    //     window.open("https://www.antlersandacorns.com/", "_blank");
-    // });
-
-    // New 2 Dev
-    // $(".new2dev-thumb").on('click', function () {
-    //     window.open("https://new2dev.com/", "_blank");
-    // });
-
-     // Home Page Portfolio Nav Color Change
-    // $("#portfolio-nav").on("click", function (event) {
-    //     $('.nav-link-portfolio').css('color', 'white');
-    // });
