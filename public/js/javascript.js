@@ -90,6 +90,11 @@ $(document).ready(function () {
         }, 'slow');
     });
 
+      // Tech Startup Weekend
+      $(".startup-thumb").on('click', function () {
+        window.open("https://startupweekend.org/", "_blank");
+    });
+
        // Antlers and Acorns
      $(".antlersandacorns-thumb").on('click', function () {
         window.open("https://www.antlersandacorns.com/", "_blank");
