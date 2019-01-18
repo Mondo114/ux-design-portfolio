@@ -295,6 +295,10 @@ li a {
     outline: none !important;
 }
 
+.skills-section {
+    margin-bottom: 100px;
+}
+
 .skills-title {
     color: rgb(60, 47, 38);
     font-size: 80px;
