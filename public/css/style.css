@@ -373,23 +373,17 @@ li a {
 /* About Page */
 /* =============================== */
 
-.about-container {
-    padding-top: none !important;
+.about-title {
+    color: rgb(60, 47, 38);
+    font-size: 80px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 168px 0 20px 0;
+    font-family: 'Bahiana', sans-serif;
 }
 
-.about-banner {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url("../images/redondo-sunset.png");
-    background-position: center 55%;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.about-container {
+    padding-top: none !important;
 }
 
 .portrait-format {
