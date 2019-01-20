@@ -126,7 +126,7 @@ li a {
     width: 400px;
     height: 300px;
     background-image: url();
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@ li a {
 }
 
 .persona-image {
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: 90%;
     height: auto;
     margin: auto;
@@ -413,15 +413,11 @@ li a {
 
 .portrait {
     width: 80%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .check-out {
     width: 36%;
-}
-
-.visit-section {
-    margin-top: 100px;
 }
 
 .webdev-thumb {
@@ -456,12 +452,10 @@ li a {
 
 .assignment-row {
     background: white;
-    /* border-radius: 10px; */
 }
 
 .assignment-section {
     padding: 20px;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
