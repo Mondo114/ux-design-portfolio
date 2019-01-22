@@ -513,8 +513,13 @@ li a {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 992px) {
+    .about-paragraph-format {
+        margin: 30px;
+    }
+}
 
+@media only screen and (max-width: 750px) {
     #home-nav,
     #portfolio-nav,
     #about-nav,
@@ -526,6 +531,18 @@ li a {
     }
 
     .page-title {
+        font-size: 60px;
+    }
+
+    .about-title {
+        font-size: 60px;
+    }
+
+    .skills-title {
+        font-size: 60px;
+    }
+
+    .page-education-title {
         font-size: 60px;
     }
 
