@@ -15,14 +15,14 @@ $(document).ready(function () {
             scrollTop: $("#portfolio-connect").offset().top - 60
         }, 'slow');
     });
-    
+
     // About
     $("#about-nav").on('click', function () {
         window.location = "https://brenton-jenkins.com/about.html";
     });
 
-     // Contact
-     $("#contact-nav").on("click", function (event) {
+    // Contact
+    $("#contact-nav").on("click", function (event) {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
@@ -43,13 +43,13 @@ $(document).ready(function () {
         window.location = "https://brenton-jenkins.com/flexafont.html";
     });
 
-      // Tulum Cosmetics
-      $(".tulum-thumb").on('click', function () {
+    // Tulum Cosmetics
+    $(".tulum-thumb").on('click', function () {
         window.location = "https://brenton-jenkins.com/tulum.html";
     });
 
-     // Antlers and Acorns
-     $(".haley-thumb").on('click', function () {
+    // Antlers and Acorns
+    $(".haley-thumb").on('click', function () {
         window.location = "https://brenton-jenkins.com/haley.html";
     });
 
@@ -70,33 +70,33 @@ $(document).ready(function () {
     $("#portfolio-nav-portfolio").on('click', function () {
         window.location = "https://brenton-jenkins.com/#portfolio-connect";
     });
-    
+
     // About
     $("#about-nav").on('click', function () {
         window.location = "https://brenton-jenkins.com/about.html";
     });
 
-     // Contact
-     $("#contact-nav").on("click", function (event) {
+    // Contact
+    $("#contact-nav").on("click", function (event) {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
     });
 
-     // Top
-     $("#btn-top").on("click", function (event) {
+    // Top
+    $("#btn-top").on("click", function (event) {
         $('html,body').animate({
             scrollTop: $("#home-connect").offset().top
         }, 'slow');
     });
 
-      // Tech Startup Weekend
-      $(".startup-thumb").on('click', function () {
+    // Tech Startup Weekend
+    $(".startup-thumb").on('click', function () {
         window.open("https://startupweekend.org/", "_blank");
     });
 
-       // Antlers and Acorns
-     $(".antlersandacorns-thumb").on('click', function () {
+    // Antlers and Acorns
+    $(".antlersandacorns-thumb").on('click', function () {
         window.open("https://www.antlersandacorns.com/", "_blank");
     });
 
@@ -115,12 +115,9 @@ $(document).ready(function () {
         }, 'slow');
     });
 
-     // My Web Development Portfolio
-     $(".webdev-thumb").on('click', function () {
+    // My Web Development Portfolio
+    $(".webdev-thumb").on('click', function () {
         window.open("https://brenton-jenkins-portfolio-2.herokuapp.com/", "_blank");
     });
 
 });
-
-
-
