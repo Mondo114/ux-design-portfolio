@@ -384,7 +384,7 @@ li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: -20px;
+    padding-right: 20px;
 }
 
 .about-container {
@@ -531,7 +531,7 @@ and (orientation: landscape) {
 
 @media only screen and (max-width: 992px) {
     .about-paragraph-format {
-        margin: 30px;
+        padding: 30px;
     }
 }
 
