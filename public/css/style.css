@@ -488,7 +488,27 @@ li a {
     }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen 
+and (max-width: 1366px)
+and (min-width: 1024px)
+and (orientation: landscape) {
+    .banner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(../images/portfolio-banner-ipad.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     .banner {
         height: 100%;
         display: flex;
@@ -526,7 +546,6 @@ li a {
 }
 
 @media only screen and (max-width: 750px) {
-
     #home-nav,
     #portfolio-nav,
     #about-nav,
@@ -566,6 +585,23 @@ li a {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(../images/portfolio-banner-tiny.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     .skills-section {
         margin-bottom: 54px;
@@ -594,21 +630,6 @@ li a {
 }
 
 @media only screen and (max-width: 500px) {
-    .banner {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: url(../images/portfolio-banner-tiny.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
     #home-nav,
     #portfolio-nav,
     #about-nav,
@@ -646,3 +667,4 @@ li a {
     }
 
 }
+
