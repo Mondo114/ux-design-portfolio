@@ -238,6 +238,7 @@ li a {
 .section-title {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .content-section {
@@ -250,10 +251,6 @@ li a {
     height: auto;
     margin: auto;
     display: block;
-}
-
-.microgurt-sitemap {
-    width: 100%;
 }
 
 .button-explanation {
@@ -295,23 +292,6 @@ li a {
     color: rgb(60, 47, 38);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     outline: none !important;
-}
-
-.skills-section {
-    margin-bottom: 54px;
-}
-
-.skills-title {
-    color: rgb(60, 47, 38);
-    font-size: 80px;
-    letter-spacing: 0.2em;
-    text-align: center;
-    padding: 12px 0 20px 0;
-    font-family: 'Bahiana', sans-serif;
-}
-
-.skill-item {
-    padding: 10px 40px;
 }
 
 .footer-section {
@@ -416,12 +396,24 @@ li a {
     /* border-radius: 10px; */
 }
 
-.check-out {
-    width: 36%;
+.skills-section {
+    margin-bottom: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.webdev-thumb {
-    background-image: url(../images/webdev-thumbnail.png);
+.skills-title {
+    color: rgb(60, 47, 38);
+    font-size: 80px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 12px 0 20px 0;
+    font-family: 'Bahiana', sans-serif;
+}
+
+.skill-item {
+    padding: 10px 20px;
 }
 
 .page-education-title {
@@ -439,6 +431,10 @@ li a {
 
 .education-section {
     padding: 20px;
+}
+
+.webdev-thumb {
+    background-image: url(../images/webdev-thumbnail.png);
 }
 
 
@@ -519,6 +515,12 @@ li a {
     }
 }
 
+@media only screen and (max-width: 770px) {
+    .thumb {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     #home-nav,
     #portfolio-nav,
@@ -556,6 +558,15 @@ li a {
 
     .jelly {
         max-width: 50px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .skills-section {
+        margin-bottom: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
 }
 
@@ -601,6 +612,11 @@ li a {
     #portfolio-nav-portfolio,
     #about-nav-about {
         padding: 1rem 0rem;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
