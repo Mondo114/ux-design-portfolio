@@ -9,12 +9,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.space10 {
+    height: 10px;
+}
+
 .space20 {
     height: 20px;
 }
 
 .space40 {
     height: 40px;
+}
+
+.space50 {
+    height: 50px;
 }
 
 .space60 {
@@ -118,7 +126,7 @@ li a {
 .page-title {
     color: rgb(60, 47, 38);
     font-size: 80px;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-align: center;
     padding: 90px 0 20px 0;
     font-family: 'Bahiana', sans-serif;
@@ -306,7 +314,7 @@ li a {
 
 .footer-title {
     color: rgb(60, 47, 38);
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-align: center;
     font-family: 'Bahiana', sans-serif;
 }
@@ -359,7 +367,7 @@ li a {
 .about-title {
     color: rgb(60, 47, 38);
     font-size: 80px;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-align: center;
     padding: 168px 0 20px 0;
     font-family: 'Bahiana', sans-serif;
@@ -406,7 +414,7 @@ li a {
 .skills-title {
     color: rgb(60, 47, 38);
     font-size: 80px;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-align: center;
     padding: 12px 0 20px 0;
     font-family: 'Bahiana', sans-serif;
@@ -419,7 +427,7 @@ li a {
 .page-education-title {
     color: rgb(60, 47, 38);
     font-size: 80px;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-align: center;
     padding: 20px 0 20px 0;
     font-family: 'Bahiana', sans-serif;
@@ -488,7 +496,7 @@ li a {
     }
 }
 
-@media only screen 
+/* @media only screen
 and (max-width: 1366px)
 and (min-width: 1024px)
 and (orientation: landscape) {
@@ -506,7 +514,7 @@ and (orientation: landscape) {
         -o-background-size: cover;
         background-size: cover;
     }
-}
+} */
 
 @media only screen and (max-width: 1200px) {
     .banner {
@@ -525,7 +533,7 @@ and (orientation: landscape) {
     }
 
     .section-title {
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
 }
 
