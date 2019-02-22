@@ -224,7 +224,7 @@ li a {
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid rgb(24, 19, 29);
+    border: 10px solid rgb(24, 19, 29);
 }
 
 .thumb:hover {
@@ -248,7 +248,7 @@ li a {
     background-position: left 0;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid rgb(24, 19, 29);
+    border: 10px solid rgb(24, 19, 29);
 }
 
 .flexafont-thumb {
@@ -270,11 +270,6 @@ li a {
 
 .startup-thumb {
     background-image: url(../images/startup-thumbnail.png);
-}
-
-.thumbnail-section {
-    color: rgb(24, 19, 29);
-    margin-bottom: 80px;
 }
 
 .thumbnail-format {
@@ -525,7 +520,7 @@ li a {
 
 .education-row {
     background: rgb(243, 255, 249);
-    padding: 60px 0 180px 0;
+    padding: 60px 0 60px 0;
 }
 
 .page-education-title {
@@ -546,7 +541,6 @@ li a {
 
 .development-title {
     color: white;
-    /* font-size: 60px; */
     text-align: center;
     padding: 20px 0 20px 0;
     font-family: 'Spinnaker', sans-serif;
@@ -577,7 +571,7 @@ li a {
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid rgb(24, 19, 29);
+    border: 10px solid rgb(24, 19, 29);
 }
 
 .webdev-thumb:hover {
@@ -613,6 +607,7 @@ li a {
 }
 
 .assignment-section {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -623,6 +618,10 @@ li a {
     border-radius: 40px;
     margin-top: 40px;
     padding: 20px;
+}
+
+.startup-row {
+    padding: 60px 0 60px 0;
 }
 
 .antlersandacorns-thumb {
@@ -647,10 +646,6 @@ li a {
     background-size: cover;
 }
 
-.startup-section {
-    margin-top: 60px;
-}
-
 
 /* =============================== */
 /* Media Queries */
@@ -661,7 +656,7 @@ li a {
         width: 70%;
     }
 
-    .thumb, .big8-thumb {
+    .thumb, .big8-thumb, .webdev-thumb {
         height: 400px;
     }
 }
@@ -699,7 +694,7 @@ li a {
         background-size: contain;
     }
 
-    .thumb, .big8-thumb {
+    .thumb, .big8-thumb, .webdev-thumb {
         height: 300px;
     }
 }
@@ -734,7 +729,7 @@ li a {
 }
 
 @media only screen and (max-width: 770px) {
-    .thumb, .big8-thumb {
+    .thumb, .big8-thumb, .webdev-thumb {
         width: 100%;
     }
 
@@ -813,8 +808,7 @@ li a {
 }
 
 @media only screen and (max-width: 580px) {
-    .thumb, .big8-thumb {
-        cursor: pointer;
+    .thumb, .big8-thumb, .webdev-thumb {
         margin-bottom: 0;
     }
 
@@ -869,16 +863,16 @@ li a {
         width: 100%;
         padding: 20px;
     }
-}
 
-/* @media only screen and (max-width: 400px) {
-    #home-nav,
-    #portfolio-nav,
-    #about-nav,
-    #contact-nav,
-    #home-nav-portfolio,
-    #portfolio-nav-portfolio,
-    #about-nav-about {
-        font-size: 14px;
+    .project-title {
+        font-size: 2rem;
     }
-} */
+
+    .course {
+        font-size: 1.3rem;
+    }
+
+    .school {
+        font-size: 1.1rem;
+    }
+}
