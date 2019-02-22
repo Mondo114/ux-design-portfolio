@@ -34,7 +34,7 @@
     <!-- <meta property="og:url" content="https://brenton-jenkins.com/"> -->
 
     <!--Import Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Quicksand|Raleway|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate|Quicksand|Raleway|Ubuntu" rel="stylesheet">
 
     <!--Import Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,299 +59,322 @@
 <body id="home-connect">
 
     <!-- Navbar -->
-    <div class="navigation">
-        <ul class="nav justify-content-center">
-            <li id="home-nav-portfolio">
-                <div class="nav-link">Home</div>
-            </li>
-            <li id="portfolio-nav-portfolio">
-                <div class="nav-link">Portfolio</div>
-            </li>
-            <li id="about-nav-about">
-                <div class="nav-link nav-link-about">About</div>
-            </li>
-            <li id="contact-nav">
-                <div class="nav-link">Contact</div>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <div id="home-nav-portfolio" class="nav-item">
+                <div class="nav-link"><img class="logo-name" src=./public/images/logo-name.png alt="Name Logo"></div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav w-100 justify-content-center">
+                    <li id="portfolio-nav-portfolio" class="nav-item">
+                        <div class="nav-link">Portfolio</div>
+                    </li>
+                    <li id="about-nav-about" class="nav-item">
+                        <div class="nav-link">About</div>
+                    </li>
+                    <li id="contact-nav" class="nav-item">
+                        <div class="nav-link">Contact</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <!-- About Content -->
-        <h1 class="about-title" id="about-connect">
-            About
-        </h1>
+    <!-- About Content -->
+    <h1 class="about-title" id="about-connect">
+        About
+    </h1>
 
-        <div class="container portfolio-container about-container">
+    <div class="underline col-6 offset-3">
+    </div>
 
-            <div class="row about-section">
-                <div class="col-lg-6 col-md-12 portrait-format">
-                    <img class="portrait" src=./public/images/brenton-lacma.png alt="Brenton Jenkins Portrait">
+    <div class="about-container">
+        <div class="row about-row">
+            <div class="col-xl-4 offset-xl-2 col-md-6 portrait-format">
+                <img class="portrait" src=./public/images/brenton-lacma.png alt="Brenton Jenkins Portrait">
+            </div>
+            <div class="col-xl-4 col-md-6 about-paragraph-format">
+                <p class="paragraph-structure">
+                    I’m a freelance UX Designer and Front End Developer pursuing a full-time position. I live in
+                    Redondo Beach, located in the greater Los Angeles area.
+                </p>
+                <p class="paragraph-structure">
+                    I earned my Bachelor of Science degree in Food Science from Cal Poly, San Luis Obispo.
+                    Transitioning into tech, I earned my Full Stack Web Development certificate from UCLA Extension.
+                    With this foundation in coding, I continued with education in User Experience Design. I earned the
+                    UI/UX Design Specialization Certificate from Cal Arts, in addition to UX-related certifications
+                    from other programs.
+                </p>
+                <p class="paragraph-structure">
+                    I studied Food Science with a desire to combine science and creativity in product development. In
+                    Research and Development Management and Quality Assurance, I took products from ideation to launch.
+                    My management background cultivated my comprehensive approach to problem solving and provided me
+                    with an aptitude for understanding the needs of clients and customers.
+                </p>
+                <p class="paragraph-structure">
+                    I love the outdoors, volleyball, pickleball, and learning about food and drink. I also enjoy
+                    photography, painting, drawing, movies, music, and video games.
+                </p>
+            </div>
+        </div>
+
+        <!-- Skills Content -->
+        <div class="row skills-row">
+            <div class="col-xl-8 offset-xl-2">
+                <h1 class="skills-title">
+                    Skills
+                </h1>
+
+                <div class="row skills-section">
+                    <h5 class="skill-item">
+                        &#x25BA; Sketch
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; InVision
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Balsamiq
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Adobe Photoshop
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; HTML
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; CSS
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; JavaScript
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Node.js
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Responsive Design
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; WordPress
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Trello
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Basecamp
+                    </h5>
+                    <h5 class="skill-item">
+                        &#x25BA; Microsoft Office
+                    </h5>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="about-paragraph-format">
-                        <p class="paragraph-structure">
-                            I’m a freelance UX Designer and Front End Developer pursuing a full-time position. I
-                            live in Redondo Beach, located in the greater Los Angeles area. I earned my Bachelor of
-                            Science
-                            degree in Food Science from Cal Poly, San Luis Obispo.
-                        </p>
-                        <p class="paragraph-structure">
-                            Transitioning into tech, I earned my Full Stack Web Development certificate from UCLA
-                            Extension. With this foundation in coding, I have continued my education, gaining skills in
-                            UI/UX. I recently earned the UI/UX Design Specialization Certificate from Cal Arts, in
-                            addition
-                            to UX-related certifications from other programs.
-                        </p>
-                        <p class="paragraph-structure">
-                            I studied Food Science with a desire to combine science and creativity in product
-                            development.
-                            As the
-                            Research and Development Manager for a large snack foods company, I took products from
-                            ideation
-                            to launch. My management background cultivated my comprehensive approach to problem solving
+            </div>
+        </div>
+
+        <!-- Education Content -->
+        <div class="row education-row">
+            <div class="col-xl-8 offset-xl-2">
+                <h1 class="page-education-title">
+                    Education
+                </h1>
+
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            Adobe Photoshop Essentials Course Certificate
+                        </h3>
+                        <h4>
+                            <strong>Udemy,</strong> <em>Online - 2019</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Comprehensive Photoshop 2019 software course; retouching photos to graphic design</p>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            UI/UX Design Specialization Certificate
+                        </h3>
+                        <h4>
+                            <strong>Cal Arts,</strong> <em>Online - 2018</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p><strong>Visual Elements of User Interface</strong> - how to design and articulate
+                            meaning
+                            using
+                            color, type, and imagery</p>
+
+                        <p><strong>UX Design Fundamentals</strong> - what role the designer plays in creating
                             and
-                            provided me with an aptitude for understanding the needs of clients and customers.
-                        </p>
-                        <p class="paragraph-structure">
-                            I love the outdoors, volleyball, pickleball, and learning about food and drink. I also
-                            enjoy
-                            photography, painting, drawing, movies, music, and video games.
-                        </p>
+                            shaping a
+                            user’s experience</p>
+
+                        <p><strong>Web Design: Strategy and Information Architecture</strong> - challenges of
+                            research and
+                            setting goals; defining
+                            your audience, user personas, outline of scope, sitemap</p>
+
+                        <p><strong>Web Design: Wireframes to Prototypes</strong> - wireframes, mockups, and
+                            clickable
+                            prototypes</p>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            Full Stack Web Development Bootcamp Certificate
+                        </h3>
+                        <h4>
+                            <strong>UCLA Extension,</strong> <em>Los Angeles, CA - 2018</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Bootcamp course included both front-end and back-end material:
+                            HTML, CSS, JavaScript, jQuery, Bootstrap, MaterializeCSS, Node.js, Git, GitHub,
+                            Responsive
+                            Design, and Scrum</p>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            Complete Sketch 5 Course Certificate
+                        </h3>
+                        <h4>
+                            <strong>Udemy,</strong> <em>Online - 2018</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Comprehensive Sketch 5 software course; modern approach to designing mobile and desktop
+                            apps,
+                            websites, and everything UX/UI</p>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            Introduction to UX Design Certificate
+                        </h3>
+                        <h4>
+                            <strong>Georgia Tech,</strong> <em>Online - 2018</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Introduced requirements gathering, design alternatives, prototyping</p>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <div class="education-title">
+                        <h3>
+                            Bachelor of Science Degree in Food Science
+                        </h3>
+                        <h4>
+                            <strong>California Polytechnic State University,</strong> <em>San Luis Obispo, CA -
+                                2010</em>
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Product Development, Quality Assurance, Sensory Evaluation, Food Engineering, Customs
+                            and
+                            Cultures, Biology, Chemistry, Statistics, Accounting, Psychology, and Marketing</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Skills Content -->
-            <h1 class="skills-title">
-                Skills
+    <!-- Development Portfolio Content -->
+    <div class="row development-row">
+        <div class="col-xl-10 offset-xl-1">
+            <h1 class="development-title">
+                Development
             </h1>
-
-            <div class="row skills-section">
-                <h5 class="skill-item">
-                    &#x25BA; Sketch
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; InVision
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Balsamiq
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Photoshop
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; HTML
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; CSS
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; JavaScript
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Node.js
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Responsive Design
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; WordPress
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Basecamp
-                </h5>
-                <h5 class="skill-item">
-                    &#x25BA; Microsoft Office
-                </h5>
-            </div>
-
-            <!-- Education Content -->
-            <h1 class="page-education-title">
-                Education
-            </h1>
-
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        Adobe Photoshop Essentials Course Certificate
-                    </h3>
-                    <h4>
-                        <strong>Udemy,</strong> <em>Online - 2019</em>
-                    </h4>
-                </div>
-                <div>
-                    <p>Comprehensive Photoshop 2019 software course; retouching photos to graphic design</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        UI/UX Design Specialization Certificate
-                    </h3>
-                    <h4>
-                        <strong>Cal Arts,</strong> <em>Online - 2018</em>
-                    </h4>
-                </div>
-                <div>
-                    <p><strong>Visual Elements of User Interface</strong> - how to design and articulate
-                        meaning
-                        using
-                        color, type, and imagery</p>
-
-                    <p><strong>UX Design Fundamentals</strong> - what role the designer plays in creating
-                        and
-                        shaping a
-                        user’s experience</p>
-
-                    <p><strong>Web Design: Strategy and Information Architecture</strong> - challenges of
-                        research and
-                        setting goals; defining
-                        your audience, user personas, outline of scope, sitemap</p>
-
-                    <p><strong>Web Design: Wireframes to Prototypes</strong> - wireframes, mockups, and
-                        clickable
-                        prototypes</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        Full Stack Web Development Bootcamp Certificate
-                    </h3>
-                    <h4>
-                        <strong>UCLA Extension,</strong> <em>Los Angeles, CA - 2018</em>
-                    </h4>
-                </div>
-                <div>
-                    <p>Bootcamp course included both front-end and back-end material:
-                        HTML, CSS, JavaScript, jQuery, Bootstrap, MaterializeCSS, Node.js, Git, GitHub, Responsive
-                        Design, and Scrum</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        Complete Sketch 5 Course Certificate
-                    </h3>
-                    <h4>
-                        <strong>Udemy,</strong> <em>Online - 2018</em>
-                    </h4>
-                </div>
-                <div>
-                    <p>Comprehensive Sketch 5 software course; modern approach to designing mobile and desktop
-                        apps,
-                        websites, and everything UX/UI</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        Introduction to UX Design Certificate
-                    </h3>
-                    <h4>
-                        <strong>Georgia Tech,</strong> <em>Online - 2018</em>
-                    </h4>
-                </div>
-                <div>
-                    <p>Introduced requirements gathering, design alternatives, prototyping</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <div class="education-title">
-                    <h3>
-                        Bachelor of Science Degree in Food Science
-                    </h3>
-                    <h4>
-                        <strong>California Polytechnic State University,</strong> <em>San Luis Obispo, CA - 2010</em>
-                    </h4>
-                </div>
-                <div>
-                    <p>Product Development, Quality Assurance, Sensory Evaluation, Food Engineering, Customs and
-                        Cultures, Biology, Chemistry, Statistics, Accounting, Psychology, and Marketing</p>
-                </div>
-            </div>
-
             <div class="thumbnail-section">
                 <div class="row thumbnail-row">
                     <div class="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 thumbnail-format">
-                        <a href="https://brenton-jenkins-portfolio-2.herokuapp.com/" target="_blank" class="thumb webdev-thumb"
+                        <a href="https://brenton-jenkins-portfolio-2.herokuapp.com/" target="_blank" class="webdev-thumb"
                             alt="Web Development Portfolio Website Thumbnail">
                         </a>
-                        <div class="thumbnail-description">My focus is now on UX and UI Design, but feel free to check
-                            out my
-                            Web
-                            Development
-                            portfolio
-                            website too!</div>
+                        <h4 class="section-title development-subtitle">Web Development Portfolio Website</h4>
                         <a href="https://brenton-jenkins-portfolio-2.herokuapp.com/" target="_blank" class="btn btn-lg btn-portfolio"
                             role="button" aria-pressed="true">View</a>
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
+    </div>
 
-        <!-- Footer -->
-        <footer class="footer-section" id="footer-connect">
-            <div class="footer-title">
-                Contact
-            </div>
-            <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-sm-4 footer-content">
-                        Brenton Jenkins
-                        <br>
-                        Redondo Beach, Los Angeles, CA
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <img class="jelly" src=./public/images/jelly-logo.png alt="Jellyfish Logo">
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <a class="icon" href="https://drive.google.com/open?id=1kZekfDMaahJjwjua4xtTS-jAinVjO3Ic"
-                            target="_blank">
-                            Resume
-                        </a>
-                        <br>
-                        <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
-                            brentonjjenkins@gmail.com
-                        </a>
-                    </div>
+    <!-- Banner -->
+    <!-- <header class="about-banner">
+    </header> -->
+
+    <!-- Footer -->
+    <footer class="footer-section" id="footer-connect">
+        <div class="footer-title">
+            Contact
+        </div>
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-12 col-sm-4 footer-content">
+                    Brenton Jenkins
+                    <br>
+                    Redondo Beach, Los Angeles, CA
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <img class="logo" src=./public/images/pyramid-logo.png alt="Pyramid Logo">
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <a class="icon" href="https://drive.google.com/open?id=1ppZcVog7ruTck84LhcAZWyXJ-OjEmgWD" target="_blank">
+                        Resume
+                    </a>
+                    <br>
+                    <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
+                        brentonjjenkins@gmail.com
+                    </a>
                 </div>
             </div>
+        </div>
 
-            <!-- Social Media -->
-            <div class="footer-items">
-                <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
-                        alt="LinkedIn Icon"></a>
-                <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
-                        alt="Github Icon"></a>
-                <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
-                        alt="Twitter Icon"></a>
-                <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
-                        alt="Pinterest Icon"></a>
-                <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
-                        alt="Instagram Icon"></a>
-            </div>
+        <!-- Social Media -->
+        <div class="footer-items">
+            <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
+                    alt="LinkedIn Icon"></a>
+            <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
+                    alt="Github Icon"></a>
+            <!-- <a href="https://dribbble.com/Brenton_Jenkins" target="_blank"><img class="icon" src=./public/images/dribbble-icon.png
+                alt="Dribbble Icon"></a> -->
+            <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
+                    alt="Pinterest Icon"></a>
+            <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
+                    alt="Instagram Icon"></a>
+            <!-- <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
+                alt="Twitter Icon"></a> -->
+        </div>
 
-            <div class="copyright">
-                © Copyright Brenton Jenkins 2019
-            </div>
+        <div class="copyright">
+            © Copyright Brenton Jenkins 2019
+        </div>
 
-        </footer>
+    </footer>
 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
-        <!--JQuery-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 
-        <!--Import Bootstrap JavaScript-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!--Import Bootstrap JavaScript-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-        <!--Import my own JavaScript-->
-        <script type="text/javascript" src="./public/js/javascript.js"></script>
+    <!--Import my own JavaScript-->
+    <script type="text/javascript" src="./public/js/javascript.js"></script>
 
 </body>
 

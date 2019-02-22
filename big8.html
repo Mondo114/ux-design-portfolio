@@ -34,7 +34,7 @@
     <!-- <meta property="og:url" content="https://brenton-jenkins.com/"> -->
 
     <!--Import Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Quicksand|Raleway|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate|Quicksand|Raleway|Ubuntu" rel="stylesheet">
 
     <!--Import Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,27 +59,38 @@
 <body id="home-connect">
 
     <!-- Navbar -->
-    <div class="navigation">
-        <ul class="nav justify-content-center">
-            <li id="home-nav-portfolio">
-                <div class="nav-link">Home</div>
-            </li>
-            <li id="portfolio-nav-portfolio">
-                <div class="nav-link">Portfolio</div>
-            </li>
-            <li id="about-nav">
-                <div class="nav-link">About</div>
-            </li>
-            <li id="contact-nav">
-                <div class="nav-link">Contact</div>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="home-nav-portfolio" class="nav-item">
+                <div class="nav-link"><img class="logo-name" src=./public/images/logo-name.png alt="Name Logo"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav w-100 justify-content-center">
+                    <li id="portfolio-nav-portfolio" class="nav-item">
+                        <div class="nav-link">Portfolio</div>
+                    </li>
+                    <li id="about-nav" class="nav-item">
+                        <div class="nav-link">About</div>
+                    </li>
+                    <li id="contact-nav" class="nav-item">
+                        <div class="nav-link">Contact</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <!-- The Big 8 Content -->
-        <h1 class="project-title">The Big 8 App Project</h1>
+    <!-- The Big 8 Content -->
+    <h1 class="project-title">The Big 8 App Project</h1>
 
-        <div class="container portfolio-container">
+    <div class="underline col-6 offset-3">
+    </div>
 
+    <div class="portfolio-container">
+        <div class="col-8 offset-2">
             <div class="row assignment-row">
                 <div class="col-md-6 assignment-section">
                     <strong>Course assignment:</strong>
@@ -94,10 +105,12 @@
                 </div>
 
                 <div class="col-md-6 assignment-section">
-                    <p><strong>In a nutshell:</strong> smartphone app interface for finding a specific food within a
+                    <p><strong>In a nutshell:</strong> smartphone app interface for finding a specific food within
+                        a
                         given area</p>
 
-                    <p><strong>My take:</strong> app lets you search for restaurants that don't utilize specific food
+                    <p><strong>My take:</strong> app lets you search for restaurants that don't utilize specific
+                        food
                         allergens</p>
 
                     <p><strong>Why:</strong> assignment for the California Institute of the Arts course</p>
@@ -115,24 +128,30 @@
                     <p class="paragraph-structure first-paragraph">
                         Food allergies affect millions of people around the world. Are you tired of going to a
                         restaurant, only
-                        to find out you can’t have anything on the menu? Even if the food you order doesn’t directly
+                        to find out you can’t have anything on the menu? Even if the food you order doesn’t
+                        directly
                         utilize
                         ingredients you’re allergic to, food cross-contamination is still a risk for people with
                         high-sensitivity
                         allergies.
                     </p>
                     <p class="paragraph-structure">
-                        This smartphone app lets you search for restaurants that have a zero tolerance for any one or
-                        combination of the 8 main allergens in their restaurant, meaning their use is not allowed in
+                        This smartphone app lets you search for restaurants that have a zero tolerance for any one
+                        or
+                        combination of the 8 main allergens in their restaurant, meaning their use is not allowed
+                        in
                         the entire
                         restaurant. The Big 8 refers to the most common food allergies: eggs, fish, milk, peanuts,
                         shellfish,
                         soy, tree nuts, and wheat.
                     </p>
                     <p class="paragraph-structure">
-                        This app is for people with food allergies or anyone who knows someone with food allergies and
-                        wants to protect them. It allows for peace of mind as you don’t need to fear that the food is
-                        contaminated with an allergen. Keep in mind, this app recognizes the most common “Big 8” food
+                        This app is for people with food allergies or anyone who knows someone with food allergies
+                        and
+                        wants to protect them. It allows for peace of mind as you don’t need to fear that the food
+                        is
+                        contaminated with an allergen. Keep in mind, this app recognizes the most common “Big 8”
+                        food
                         allergens and does not cover all potential food allergens.
                     </p>
                     <p class="paragraph-structure">
@@ -145,7 +164,8 @@
                         click search and a map displaying viable restaurants will display.
                     </p>
                     <p class="paragraph-structure">
-                        1) Select allergen(s) to avoid > 2) Input location > 3) Select max radius > 4) Click Search to
+                        1) Select allergen(s) to avoid > 2) Input location > 3) Select max radius > 4) Click Search
+                        to
                         view map results
                     </p>
                 </div>
@@ -189,79 +209,81 @@
             </h2>
 
             <p class="col-md-6 offset-md-3 annotation">
-                Toggle elements, while perhaps not quite as prevalent in design as they used to be, here create strong
-                clarity for your selection. Further helping the user, your selections are displayed on the next screen,
+                Toggle elements, while perhaps not quite as prevalent in design as they used to be, here create
+                strong
+                clarity for your selection. Further helping the user, your selections are displayed on the next
+                screen,
                 where the restaurant results are displayed on a map.
             </p>
 
             <img class="content-structure" src=./public/images/big8/big8-screens.png alt="The Big 8 Mobile Screens">
 
-            <a class="btn btn-lg btn-portfolio" id="btn-top" role="button" aria-pressed="true">Top</a>
-
         </div>
+    </div>
 
-        <!-- Footer -->
-        <footer class="footer-section" id="footer-connect">
-            <div class="footer-title">
-                Contact
-            </div>
-            <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-sm-4 footer-content">
-                        Brenton Jenkins
-                        <br>
-                        Redondo Beach, Los Angeles, CA
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <img class="jelly" src=./public/images/jelly-logo.png alt="Jellyfish Logo">
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <a class="icon" href="https://drive.google.com/open?id=1kZekfDMaahJjwjua4xtTS-jAinVjO3Ic"
-                            target="_blank">
-                            Resume
-                        </a>
-                        <br>
-                        <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
-                            brentonjjenkins@gmail.com
-                        </a>
-                    </div>
+    <!-- Footer -->
+    <footer class="footer-section" id="footer-connect">
+        <div class="footer-title">
+            Contact
+        </div>
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-12 col-sm-4 footer-content">
+                    Brenton Jenkins
+                    <br>
+                    Redondo Beach, Los Angeles, CA
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <img class="logo" src=./public/images/pyramid-logo.png alt="Pyramid Logo">
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <a class="icon" href="https://drive.google.com/open?id=1ppZcVog7ruTck84LhcAZWyXJ-OjEmgWD" target="_blank">
+                        Resume
+                    </a>
+                    <br>
+                    <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
+                        brentonjjenkins@gmail.com
+                    </a>
                 </div>
             </div>
+        </div>
 
-            <!-- Social Media -->
-            <div class="footer-items">
-                <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
-                        alt="LinkedIn Icon"></a>
-                <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
-                        alt="Github Icon"></a>
-                <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
-                        alt="Twitter Icon"></a>
-                <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
-                        alt="Pinterest Icon"></a>
-                <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
-                        alt="Instagram Icon"></a>
-            </div>
+        <!-- Social Media -->
+        <div class="footer-items">
+            <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
+                    alt="LinkedIn Icon"></a>
+            <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
+                    alt="Github Icon"></a>
+            <!-- <a href="https://dribbble.com/Brenton_Jenkins" target="_blank"><img class="icon" src=./public/images/dribbble-icon.png
+                alt="Dribbble Icon"></a> -->
+            <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
+                    alt="Pinterest Icon"></a>
+            <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
+                    alt="Instagram Icon"></a>
+            <!-- <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
+                alt="Twitter Icon"></a> -->
+        </div>
 
-            <div class="copyright">
-                © Copyright Brenton Jenkins 2019
-            </div>
+        <div class="copyright">
+            © Copyright Brenton Jenkins 2019
+        </div>
 
-        </footer>
+    </footer>
 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
-        <!--JQuery-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 
-        <!--Import Bootstrap JavaScript-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!--Import Bootstrap JavaScript-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-        <!--Import my own JavaScript-->
-        <script type="text/javascript" src="./public/js/javascript.js"></script>
+    <!--Import my own JavaScript-->
+    <script type="text/javascript" src="./public/js/javascript.js"></script>
 
 </body>
 

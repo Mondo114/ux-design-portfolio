@@ -34,7 +34,7 @@
     <!-- <meta property="og:url" content="https://brenton-jenkins.com/"> -->
 
     <!--Import Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Quicksand|Raleway|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate|Quicksand|Raleway|Ubuntu" rel="stylesheet">
 
     <!--Import Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,127 +59,136 @@
 <body id="home-connect">
 
     <!-- Navbar -->
-    <div class="navigation">
-        <ul class="nav justify-content-center">
-            <li id="home-nav-portfolio">
-                <div class="nav-link">Home</div>
-            </li>
-            <li id="portfolio-nav-portfolio">
-                <div class="nav-link">Portfolio</div>
-            </li>
-            <li id="about-nav">
-                <div class="nav-link">About</div>
-            </li>
-            <li id="contact-nav">
-                <div class="nav-link">Contact</div>
-            </li>
-        </ul>
-
-        <!-- Antlers and Acorns Content -->
-        <h1 class="project-title">Haley Johnson Portfolio Website</h1>
-
-        <div class="container portfolio-container">
-
-            <div class="row assignment-row">
-
-                <div class="col-md-6 assignment-section">
-                    <p><strong>Project:</strong>
-                        Design and build Haley's illustration and animation portfolio.</p>
-
-                    <p><strong>In a nutshell:</strong> communicate with the client about what content she wants on her
-                        website and build accordingly</p>
-
-                    <p><strong>My take:</strong> much of Haley's work portrays small forest animals and I figured it
-                        would be a good approach to have her website itself portray an aesthtic that supports this</p>
-
-                    <p><strong>Why:</strong> client needs to showcase her work</p>
-
-                    <p><strong>Who:</strong> I designed and built the website; the client provided some of the website
-                        assets, such as the banner background, animated frog, and log divider</p>
-
-                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, paint.NET</p>
-                </div>
-
-                <div class="col-md-6 assignment-section">
-                    <div class="thumbnail-section">
-                        <div class="row thumbnail-row">
-                            <div class="col-md-12 thumbnail-format">
-                                <a href="https://antlersandacorns.com/" target="_blank" class="thumb antlersandacorns-thumb"
-                                    alt="Antlers and Acorns Website Thumbnail">
-                                </a>
-                                <a href="https://antlersandacorns.com/" target="_blank" class="btn btn-lg btn-portfolio"
-                                    role="button" aria-pressed="true">View</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="home-nav-portfolio" class="nav-item">
+                <div class="nav-link"><img class="logo-name" src=./public/images/logo-name.png alt="Name Logo"></div>
             </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav w-100 justify-content-center">
+                    <li id="portfolio-nav-portfolio" class="nav-item">
+                        <div class="nav-link">Portfolio</div>
+                    </li>
+                    <li id="about-nav" class="nav-item">
+                        <div class="nav-link">About</div>
+                    </li>
+                    <li id="contact-nav" class="nav-item">
+                        <div class="nav-link">Contact</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Antlers and Acorns Content -->
+    <h1 class="project-title">Haley Johnson Portfolio Website</h1>
+
+    <div class="underline col-6 offset-3">
+    </div>
+
+    <div class="row portfolio-container haley-portfolio-row">
+        <div class="col-xl-5 offset-xl-1 col-md-6 assignment-section">
+            <p><strong>Project:</strong>
+                Design and build Haley's illustration and animation portfolio.</p>
+
+            <p><strong>In a nutshell:</strong> communicate with the client about what content she wants on
+                her
+                website and build accordingly</p>
+
+            <p><strong>My take:</strong> much of Haley's work portrays small forest animals and I figured
+                it
+                would be a good approach to have her website itself portray an aesthtic that supports this</p>
+
+            <p><strong>Why:</strong> client needs to showcase her work</p>
+
+            <p><strong>Who:</strong> I designed and built the website; the client provided some of the
+                website
+                assets, such as the banner background, animated frog, and log divider</p>
+
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, paint.NET</p>
         </div>
 
-        <!-- Footer -->
-        <footer class="footer-section" id="footer-connect">
-            <div class="footer-title">
-                Contact
-            </div>
-            <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-sm-4 footer-content">
-                        Brenton Jenkins
-                        <br>
-                        Redondo Beach, Los Angeles, CA
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <img class="jelly" src=./public/images/jelly-logo.png alt="Jellyfish Logo">
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <a class="icon" href="https://drive.google.com/open?id=1kZekfDMaahJjwjua4xtTS-jAinVjO3Ic"
-                            target="_blank">
-                            Resume
+        <div class="col-xl-5 col-md-6 assignment-section">
+            <div class="thumbnail-section">
+                <div class="row thumbnail-row">
+                    <div class="col-md-12 thumbnail-format">
+                        <a href="https://antlersandacorns.com/" target="_blank" class="thumb antlersandacorns-thumb"
+                            alt="Antlers and Acorns Website Thumbnail">
                         </a>
-                        <br>
-                        <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
-                            brentonjjenkins@gmail.com
-                        </a>
+                        <a href="https://antlersandacorns.com/" target="_blank" class="btn btn-lg btn-portfolio" role="button"
+                            aria-pressed="true">View</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Social Media -->
-            <div class="footer-items">
-                <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
-                        alt="LinkedIn Icon"></a>
-                <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
-                        alt="Github Icon"></a>
-                <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
-                        alt="Twitter Icon"></a>
-                <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
-                        alt="Pinterest Icon"></a>
-                <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
-                        alt="Instagram Icon"></a>
+    <!-- Footer -->
+    <footer class="footer-section" id="footer-connect">
+        <div class="footer-title">
+            Contact
+        </div>
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-12 col-sm-4 footer-content">
+                    Brenton Jenkins
+                    <br>
+                    Redondo Beach, Los Angeles, CA
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <img class="logo" src=./public/images/pyramid-logo.png alt="Pyramid Logo">
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <a class="icon" href="https://drive.google.com/open?id=1ppZcVog7ruTck84LhcAZWyXJ-OjEmgWD" target="_blank">
+                        Resume
+                    </a>
+                    <br>
+                    <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
+                        brentonjjenkins@gmail.com
+                    </a>
+                </div>
             </div>
+        </div>
 
-            <div class="copyright">
-                © Copyright Brenton Jenkins 2019
-            </div>
+        <!-- Social Media -->
+        <div class="footer-items">
+            <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
+                    alt="LinkedIn Icon"></a>
+            <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
+                    alt="Github Icon"></a>
+            <!-- <a href="https://dribbble.com/Brenton_Jenkins" target="_blank"><img class="icon" src=./public/images/dribbble-icon.png
+                alt="Dribbble Icon"></a> -->
+            <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
+                    alt="Pinterest Icon"></a>
+            <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
+                    alt="Instagram Icon"></a>
+            <!-- <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
+                alt="Twitter Icon"></a> -->
+        </div>
 
-        </footer>
+        <div class="copyright">
+            © Copyright Brenton Jenkins 2019
+        </div>
 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
+    </footer>
 
-        <!--JQuery-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
-        <!--Import Bootstrap JavaScript-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 
-        <!--Import my own JavaScript-->
-        <script type="text/javascript" src="./public/js/javascript.js"></script>
+    <!--Import Bootstrap JavaScript-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!--Import my own JavaScript-->
+    <script type="text/javascript" src="./public/js/javascript.js"></script>
 
 </body>
 

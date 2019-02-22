@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+    // Navbar Background Color Change
+
+    $(function () {
+        $(document).scroll(function () {
+          var nav = $(".nav");
+          var navlink = $(".nav-link");
+          var banner = $(".bannerJS");
+        //   var projectTitle = $(".project-title");
+
+          nav.toggleClass('scrolled', $(this).scrollTop() > banner.height());
+          navlink.toggleClass('scrolledlink', $(this).scrollTop() > banner.height());
+
+        //   nav.toggleClass('scrolled', $(this).scrollTop() > projectTitle.height());
+        //   navlink.toggleClass('scrolledlink', $(this).scrollTop() > projectTitle.height());
+        });
+      });
+
+
     // Home Page Links
 
     // Home
@@ -53,15 +71,18 @@ $(document).ready(function () {
         }, 'slow');
     });
 
-    // Top
-    $("#btn-top").on("click", function (event) {
-        $('html,body').animate({
-            scrollTop: $("#home-connect").offset().top
-        }, 'slow');
-    });
-
 
     // About Page Links
+
+     // Home
+     $("#home-nav-portfolio").on('click', function () {
+        window.location = "https://brenton-jenkins.com/";
+    });
+
+    // Portfolio
+    $("#portfolio-nav-portfolio").on('click', function () {
+        window.location = "https://brenton-jenkins.com/#portfolio-connect";
+    });
 
     // About
     $("#about-nav-about").on("click", function (event) {
@@ -70,4 +91,20 @@ $(document).ready(function () {
         }, 'slow');
     });
 
+     // Contact
+     $("#contact-nav").on("click", function (event) {
+        $('html,body').animate({
+            scrollTop: $("#footer-connect").offset().top
+        }, 'slow');
+    });
+
 });
+
+
+
+    // Top
+    // $("#btn-top").on("click", function (event) {
+    //     $('html,body').animate({
+    //         scrollTop: $("#home-connect").offset().top
+    //     }, 'slow');
+    // });

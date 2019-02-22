@@ -34,7 +34,7 @@
     <!-- <meta property="og:url" content="https://brenton-jenkins.com/"> -->
 
     <!--Import Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Quicksand|Raleway|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate|Quicksand|Raleway|Ubuntu" rel="stylesheet">
 
     <!--Import Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,27 +59,38 @@
 <body id="home-connect">
 
     <!-- Navbar -->
-    <div class="navigation">
-        <ul class="nav justify-content-center">
-            <li id="home-nav-portfolio">
-                <div class="nav-link">Home</div>
-            </li>
-            <li id="portfolio-nav-portfolio">
-                <div class="nav-link">Portfolio</div>
-            </li>
-            <li id="about-nav">
-                <div class="nav-link">About</div>
-            </li>
-            <li id="contact-nav">
-                <div class="nav-link">Contact</div>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="home-nav-portfolio" class="nav-item">
+                <div class="nav-link"><img class="logo-name" src=./public/images/logo-name.png alt="Name Logo"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav w-100 justify-content-center">
+                    <li id="portfolio-nav-portfolio" class="nav-item">
+                        <div class="nav-link">Portfolio</div>
+                    </li>
+                    <li id="about-nav" class="nav-item">
+                        <div class="nav-link">About</div>
+                    </li>
+                    <li id="contact-nav" class="nav-item">
+                        <div class="nav-link">Contact</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <!-- Flexafont Content -->
-        <h1 class="project-title">Flexafont Web App Project</h1>
+    <!-- Flexafont Content -->
+    <h1 class="project-title">Flexafont Web App Project</h1>
 
-        <div class="container portfolio-container">
+    <div class="underline col-6 offset-3">
+    </div>
 
+    <div class="portfolio-container">
+        <div class="col-8 offset-2">
             <div class="row assignment-row">
                 <div class="col-md-6 assignment-section">
                     <strong>Course assignment:</strong>
@@ -94,7 +105,8 @@
                 <div class="col-md-6 assignment-section">
                     <p><strong>In a nutshell:</strong> app that solves a problem for users</p>
 
-                    <p><strong>My take:</strong> app that allows the user to customize the font of text on a website
+                    <p><strong>My take:</strong> app that allows the user to customize the font of text on a
+                        website
                         being read for better legibility</p>
 
                     <p><strong>Why:</strong> assignment for the California Institute of the Arts course</p>
@@ -116,29 +128,37 @@
                         Stay focused on the reading at hand with flexible font choices.
                     </p>
                     <p class="paragraph-structure">
-                        <strong>Write a short paragraph describing your app. Make sure to mention what the app does and
+                        <strong>Write a short paragraph describing your app. Make sure to mention what the app does
+                            and
                             what problem it solves.</strong>
                         <br>
-                        Have you ever found it difficult to stay focused on a website’s text content because the font
+                        Have you ever found it difficult to stay focused on a website’s text content because the
+                        font
                         is
-                        unreadable? Font that is too small, the wrong style, or has poor color contrast makes it taxing
+                        unreadable? Font that is too small, the wrong style, or has poor color contrast makes it
+                        taxing
                         on the
-                        reader. Whether you have attention problems and need your current selection to stand out, color
-                        blindness, or other vision complications, Flexifont allows the text you’re reading to display
+                        reader. Whether you have attention problems and need your current selection to stand out,
+                        color
+                        blindness, or other vision complications, Flexifont allows the text you’re reading to
+                        display
                         on your
                         terms.
                     </p>
                     <p class="paragraph-structure">
-                        - Open app > Select your text parameters (name, size, style, color, background) > Minimize app
+                        - Open app > Select your text parameters (name, size, style, color, background) > Minimize
+                        app
                         (do
                         not quit) > Highlight desired text in browser to be changed > Button will automatically
                         populate at end
-                        of selection > Click button to apply parameters chosen in app to website text (text will only
+                        of selection > Click button to apply parameters chosen in app to website text (text will
+                        only
                         be
                         changed on client side, not on actual website)
                     </p>
                     <p class="paragraph-structure">
-                        <strong>Describe four specific functions that your app will do. List these ideas in order of
+                        <strong>Describe four specific functions that your app will do. List these ideas in order
+                            of
                             importance,
                             with the first idea being the most important.</strong>
                         <br>
@@ -149,7 +169,8 @@
                         5) Select text style (bold, italic, etc.)
                     </p>
                     <p class="paragraph-structure">
-                        <strong>List 4 potential roles that are a part of your initial user target group. Then, expand
+                        <strong>List 4 potential roles that are a part of your initial user target group. Then,
+                            expand
                             on one of
                             the roles with a detailed profile description of one of these potential users.</strong>
                         <br>
@@ -191,21 +212,25 @@
                     <p class="paragraph-structure">
                         <strong>Come up with 4 client/designer goals for your app design. You don't have to assign
                             these to a
-                            category (political, social, etc). List your goals in order of importance, with the first
+                            category (political, social, etc). List your goals in order of importance, with the
+                            first
                             goal being
                             the most important.
                             What does it do?</strong>
                         <br>
-                        - provides a way to change a website’s text to display different aesthetics (size, color, etc.)
+                        - provides a way to change a website’s text to display different aesthetics (size, color,
+                        etc.)
                     </p>
                     <p class="paragraph-structure">
                         <strong>How does it work?</strong>
                         <br>
-                        - Open app > Select your text parameters (name, size, style, color, background) > Minimize app
+                        - Open app > Select your text parameters (name, size, style, color, background) > Minimize
+                        app
                         (do
                         not quit) > Highlight desired text in browser to be changed > Button will automatically
                         populate at end
-                        of selection > Click button to apply parameters chosen in app to website text (text will only
+                        of selection > Click button to apply parameters chosen in app to website text (text will
+                        only
                         be
                         changed on client side, not on actual website)
                     </p>
@@ -217,36 +242,43 @@
                     <p class="paragraph-structure">
                         <strong>Why would someone use this?</strong>
                         <br>
-                        1) For people with ADHD, it is difficult getting through long articles on the web; there is a
+                        1) For people with ADHD, it is difficult getting through long articles on the web; there is
+                        a
                         need to be
                         able to select different text background colors to stay focused on 1 paragraph at a time
                         <br>
                         <br>
-                        2) For people with astigmatism, text appears distorted; there is a need for bigger text and the
+                        2) For people with astigmatism, text appears distorted; there is a need for bigger text and
+                        the
                         ability to
                         choose specific fonts
                         <br>
                         <br>
-                        3) For people with colorblindness, text may not always appear distinct enough from background;
+                        3) For people with colorblindness, text may not always appear distinct enough from
+                        background;
                         there is a need to be able to choose text and text background colors
                         <br>
                         <br>
-                        4) For people with Presbyopia (the loss of near-sighted focusing ability that occurs with age),
+                        4) For people with Presbyopia (the loss of near-sighted focusing ability that occurs with
+                        age),
                         text
                         appears fuzzy; there is a need to be able to choose text size and change text style to bold
                     </p>
                     <p class="paragraph-structure">
                         <strong>Name and briefly describe 3 existing apps that are similar to your app idea.</strong>
                         <br>
-                        1) Typecast - browser-based web fonts app that enables you to experiment with web fonts from
-                        Typekit, Fontdeck, Fonts.com and Google Fonts – even if you don't have an account with those
+                        1) Typecast - browser-based web fonts app that enables you to experiment with web fonts
+                        from
+                        Typekit, Fontdeck, Fonts.com and Google Fonts – even if you don't have an account with
+                        those
                         services
                         <br>
                         <br>
                         2) Tiff - web app that enables you to compare how letters look in different typefaces
                         <br>
                         <br>
-                        3) Path - app that lets you add text to photos in unique ways. You can draw a path you'd like
+                        3) Path - app that lets you add text to photos in unique ways. You can draw a path you'd
+                        like
                         the
                         words to take, type in a message, and the text flows along your path. You can customize the
                         font,
@@ -326,72 +358,72 @@
 
             <img class="content-structure-mobile" src=./public/images/flexafont/24-flex.png alt="Flexafont Background Color Guest Wireframe">
 
-            <a class="btn btn-lg btn-portfolio" id="btn-top" role="button" aria-pressed="true">Top</a>
-
         </div>
+    </div>
 
-        <!-- Footer -->
-        <footer class="footer-section" id="footer-connect">
-            <div class="footer-title">
-                Contact
-            </div>
-            <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-sm-4 footer-content">
-                        Brenton Jenkins
-                        <br>
-                        Redondo Beach, Los Angeles, CA
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <img class="jelly" src=./public/images/jelly-logo.png alt="Jellyfish Logo">
-                    </div>
-                    <div class="col-12 col-sm-4 footer-content">
-                        <a class="icon" href="https://drive.google.com/open?id=1kZekfDMaahJjwjua4xtTS-jAinVjO3Ic"
-                            target="_blank">
-                            Resume
-                        </a>
-                        <br>
-                        <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
-                            brentonjjenkins@gmail.com
-                        </a>
-                    </div>
+    <!-- Footer -->
+    <footer class="footer-section" id="footer-connect">
+        <div class="footer-title">
+            Contact
+        </div>
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-12 col-sm-4 footer-content">
+                    Brenton Jenkins
+                    <br>
+                    Redondo Beach, Los Angeles, CA
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <img class="logo" src=./public/images/pyramid-logo.png alt="Pyramid Logo">
+                </div>
+                <div class="col-12 col-sm-4 footer-content">
+                    <a class="icon" href="https://drive.google.com/open?id=1ppZcVog7ruTck84LhcAZWyXJ-OjEmgWD" target="_blank">
+                        Resume
+                    </a>
+                    <br>
+                    <a class="icon" href="mailto:brentonjjenkins@gmail.com" target="_blank">
+                        brentonjjenkins@gmail.com
+                    </a>
                 </div>
             </div>
+        </div>
 
-            <!-- Social Media -->
-            <div class="footer-items">
-                <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
-                        alt="LinkedIn Icon"></a>
-                <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
-                        alt="Github Icon"></a>
-                <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
-                        alt="Twitter Icon"></a>
-                <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
-                        alt="Pinterest Icon"></a>
-                <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
-                        alt="Instagram Icon"></a>
-            </div>
+        <!-- Social Media -->
+        <div class="footer-items">
+            <a href="https://www.linkedin.com/in/brenton-jenkins/" target="_blank"><img class="icon" src=./public/images/linkedin-icon.png
+                    alt="LinkedIn Icon"></a>
+            <a href="https://github.com/Mondo114" target="_blank"><img class="icon" src=./public/images/github-icon.png
+                    alt="Github Icon"></a>
+            <!-- <a href="https://dribbble.com/Brenton_Jenkins" target="_blank"><img class="icon" src=./public/images/dribbble-icon.png
+                alt="Dribbble Icon"></a> -->
+            <a href="https://www.pinterest.com/tikiman114/" target="_blank"><img class="icon" src=./public/images/pinterest-icon.png
+                    alt="Pinterest Icon"></a>
+            <a href="https://www.instagram.com/mondo114/" target="_blank"><img class="icon" src=./public/images/instagram-icon.png
+                    alt="Instagram Icon"></a>
+            <!-- <a href="https://twitter.com/Aleafonthewind_" target="_blank"><img class="icon" src=./public/images/twitter-icon.png
+                alt="Twitter Icon"></a> -->
+        </div>
 
-            <div class="copyright">
-                © Copyright Brenton Jenkins 2019
-            </div>
+        <div class="copyright">
+            © Copyright Brenton Jenkins 2019
+        </div>
 
-        </footer>
+    </footer>
 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
-        <!--JQuery-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 
-        <!--Import Bootstrap JavaScript-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!--Import Bootstrap JavaScript-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-        <!--Import my own JavaScript-->
-        <script type="text/javascript" src="./public/js/javascript.js"></script>
+    <!--Import my own JavaScript-->
+    <script type="text/javascript" src="./public/js/javascript.js"></script>
 
 </body>
 
