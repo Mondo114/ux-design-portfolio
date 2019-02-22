@@ -86,14 +86,6 @@ li a {
     border-color: rgb(24, 19, 29);
 }
 
-.navbar-dark .navbar-toggler:active {
-    border-color: rgb(24, 19, 29);
-}
-
-.navbar-dark .navbar-toggler:focus {
-    border-color: rgb(24, 19, 29);
-}
-
 #home-nav,
 #portfolio-nav,
 #about-nav,
