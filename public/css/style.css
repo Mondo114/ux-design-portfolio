@@ -86,14 +86,17 @@ li a {
     border-color: rgb(24, 19, 29);
 }
 
-#home-nav,
-#portfolio-nav,
-#about-nav,
-#contact-nav,
-#home-nav-portfolio,
-#portfolio-nav-portfolio,
-#about-nav-about {
-    /* padding: 1rem 3rem !important; */
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto rgb(24, 19, 29);
+}
+
+#home-nav {
+    /* margin: 0rem 0rem 0rem 10rem; */
+}
+
+#portfolio-nav {
+    margin: 0rem 0rem 0rem 25rem;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -102,6 +105,7 @@ li a {
 
 .navbar-nav {
     display: flex;
+    flex-direction: row;
 }
 
 .empty-nav {
@@ -647,6 +651,10 @@ li a {
 }
 
 @media only screen and (max-width: 1200px) {
+    #portfolio-nav {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
     .banner {
         height: 38vh;
         display: flex;
@@ -686,12 +694,12 @@ li a {
 
 @media only screen and (max-width: 992px) {
     .navbar-expand-md .navbar-nav .nav-link {
-        padding: 0 1rem;
+        padding: 1rem 1.8rem;
     }
-    
-    /* .logo-name {
-        max-width: 200px;
-    } */
+
+    #contact-nav {
+        margin: 0rem 0rem 0rem 0rem;
+    }
 
     #home-nav,
     #portfolio-nav,
@@ -700,10 +708,10 @@ li a {
     #home-nav-portfolio,
     #portfolio-nav-portfolio,
     #about-nav-about {
-        padding: 1rem 1rem;
+        padding: 0rem 0rem;
         font-size: 14px;
     }
-
+    
     .about-paragraph-format {
         padding: 30px;
     }
@@ -736,17 +744,6 @@ li a {
 }
 
 @media only screen and (max-width: 750px) {
-
-    #home-nav,
-    #portfolio-nav,
-    #about-nav,
-    #contact-nav,
-    #home-nav-portfolio,
-    #portfolio-nav-portfolio,
-    #about-nav-about {
-        padding: 1rem 1rem;
-    }
-
     .page-title,
     .about-title,
     .skills-title {
@@ -828,17 +825,6 @@ li a {
 }
 
 @media only screen and (max-width: 500px) {
-
-    #home-nav,
-    #portfolio-nav,
-    #about-nav,
-    #contact-nav,
-    #home-nav-portfolio,
-    #portfolio-nav-portfolio,
-    #about-nav-about {
-        padding: 0rem 0rem;
-    }
-
     .container {
         padding-left: 0;
         padding-right: 0;

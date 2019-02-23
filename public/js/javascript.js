@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     // Navbar Background Color Change
-
     $(function () {
         $(document).scroll(function () {
           var nav = $(".nav");
@@ -16,6 +15,17 @@ $(document).ready(function () {
         //   navlink.toggleClass('scrolledlink', $(this).scrollTop() > projectTitle.height());
         });
       });
+
+
+      // Navbar Close After Click
+    //   $('.navbar-collapse ul li').click(function(){ 
+    //     $('.navbar-toggle:visible').click();
+    //     });
+
+        jQuery('.navbar-collapse div').click(function(){ 
+            jQuery('.navbar-collapse').css('height', '0');
+            jQuery('.navbar-collapse').removeClass('in');
+          });  
 
 
     // Home Page Links
