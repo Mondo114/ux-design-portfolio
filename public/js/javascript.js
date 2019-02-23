@@ -22,10 +22,10 @@ $(document).ready(function () {
     //     $('.navbar-toggle:visible').click();
     //     });
 
-        jQuery('.navbar-collapse div').click(function(){ 
-            jQuery('.navbar-collapse').css('height', '0');
-            jQuery('.navbar-collapse').removeClass('in');
-          });  
+        $('.navbar-collapse div').click(function(){ 
+            $('.navbar-collapse').css('height', '0');
+            $('.navbar-collapse').removeClass('in');
+          });
 
 
     // Home Page Links
