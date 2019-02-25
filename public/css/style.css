@@ -95,7 +95,7 @@ button:focus {
     /* margin: 0rem 0rem 0rem 10rem; */
 }
 
-#portfolio-nav {
+#portfolio-nav, #portfolio-nav-portfolio {
     margin: 0rem 0rem 0rem 25rem;
 }
 
@@ -123,7 +123,7 @@ button:focus {
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(135, 103, 221) !important;
+    color: rgb(160, 129, 245) !important;
 }
 
 .nav-link:active {
@@ -173,7 +173,7 @@ button:focus {
 } */
 
 .microgurt-row {
-    background: rgb(255, 0, 68);
+    background: rgb(246, 108, 94);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -193,7 +193,7 @@ button:focus {
 }
 
 .tulum-row {
-    background: white;
+    background: rgb(116, 224, 212);
     /* background: url("../images/beakers.jpg");
     background-position: center 14%;
     background-repeat: no-repeat;
@@ -204,11 +204,11 @@ button:focus {
 }
 
 .haley-row {
-    background: rgb(116, 224, 212);
+   background: white
 }
 
 .new2dev-row {
-    background: white;
+    background: rgb(246, 108, 94);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -334,10 +334,10 @@ button:focus {
 }
 
 .underline {
-    height: 4px;
+    /* height: 4px;
     background: rgb(24, 19, 29);
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 .section-title {
@@ -520,7 +520,7 @@ button:focus {
 }
 
 .education-row {
-    background: rgb(255, 172, 88);
+    background: rgb(246, 108, 94);
     padding: 60px 0 60px 0;
 }
 
@@ -651,7 +651,7 @@ button:focus {
 }
 
 @media only screen and (max-width: 1200px) {
-    #portfolio-nav {
+    #portfolio-nav, #portfolio-nav-portfolio {
         margin: 0rem 0rem 0rem 0rem;
     }
 
@@ -847,3 +847,4 @@ button:focus {
         font-size: 1.1rem;
     }
 }
+
