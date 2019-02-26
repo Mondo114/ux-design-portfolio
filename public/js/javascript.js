@@ -3,29 +3,58 @@ $(document).ready(function () {
     // Navbar Background Color Change
     $(function () {
         $(document).scroll(function () {
-          var nav = $(".nav");
-          var navlink = $(".nav-link");
-          var banner = $(".bannerJS");
-        //   var projectTitle = $(".project-title");
+            var nav = $(".nav");
+            var navlink = $(".nav-link");
+            var banner = $(".bannerJS");
+            //   var projectTitle = $(".project-title");
 
-          nav.toggleClass('scrolled', $(this).scrollTop() > banner.height());
-          navlink.toggleClass('scrolledlink', $(this).scrollTop() > banner.height());
+            nav.toggleClass('scrolled', $(this).scrollTop() > banner.height());
+            navlink.toggleClass('scrolledlink', $(this).scrollTop() > banner.height());
 
-        //   nav.toggleClass('scrolled', $(this).scrollTop() > projectTitle.height());
-        //   navlink.toggleClass('scrolledlink', $(this).scrollTop() > projectTitle.height());
+            //   nav.toggleClass('scrolled', $(this).scrollTop() > projectTitle.height());
+            //   navlink.toggleClass('scrolledlink', $(this).scrollTop() > projectTitle.height());
         });
-      });
+    });
 
 
-      // Navbar Close After Click
+    // Navbar Close After Click
     //   $('.navbar-collapse ul li').click(function(){ 
     //     $('.navbar-toggle:visible').click();
     //     });
 
-        $('.navbar-collapse div').click(function(){ 
-            $('.navbar-collapse').css('height', '0');
-            $('.navbar-collapse').removeClass('in');
-          });
+    // $(document).ready(function(){
+    //     $('.div').click(function(){
+    //     })
+    // $(document).ready(function(){
+    //     $('.navbar-collapse div').click(function(){
+    //         $('#show-menu').trigger('click');
+    //     })
+    //   })
+    // })
+
+    // $('.navbar-collapse div').click(function(){ 
+    //     $('.navbar-collapse').css('height', '0');
+    //     $('.navbar-collapse').removeClass('in');
+    //   });
+
+    // $(".navbar-collapse div").click(function () {
+    //     $(".nav-content").hide();
+    // });
+
+    // $(function () {
+    //     $(".navbar-collapse div").click(function () {
+    //         if ($(".nav-content").is(":visible"))
+    //             $(".nav-content").hide();
+    //     });
+    // });
+
+    // $(function () {
+    //     $(".navbar-toggler").click(function () {
+    //         if ($(".nav-content").is(":hidden"))
+    //             $(".nav-content").show();
+    //     });
+    // });
+
 
 
     // Home Page Links
@@ -84,8 +113,8 @@ $(document).ready(function () {
 
     // About Page Links
 
-     // Home
-     $("#home-nav-portfolio").on('click', function () {
+    // Home
+    $("#home-nav-portfolio").on('click', function () {
         window.location = "https://brenton-jenkins.com/";
     });
 
@@ -101,8 +130,8 @@ $(document).ready(function () {
         }, 'slow');
     });
 
-     // Contact
-     $("#contact-nav").on("click", function (event) {
+    // Contact
+    $("#contact-nav").on("click", function (event) {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
@@ -112,9 +141,9 @@ $(document).ready(function () {
 
 
 
-    // Top
-    // $("#btn-top").on("click", function (event) {
-    //     $('html,body').animate({
-    //         scrollTop: $("#home-connect").offset().top
-    //     }, 'slow');
-    // });
+// Top
+// $("#btn-top").on("click", function (event) {
+//     $('html,body').animate({
+//         scrollTop: $("#home-connect").offset().top
+//     }, 'slow');
+// });

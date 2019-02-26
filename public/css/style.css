@@ -8,6 +8,14 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(135, 103, 221);
+}
+
 .space4 {
     height: 4px;
     background: rgb(26, 16, 32);
@@ -33,12 +41,8 @@ body {
     margin-bottom: 60px;
 }
 
-a {
-    color: white;
-}
-
-a:hover {
-    color: rgb(135, 103, 221);
+.space72 {
+    height: 72px;
 }
 
 .navbar {
@@ -95,7 +99,8 @@ button:focus {
     /* margin: 0rem 0rem 0rem 10rem; */
 }
 
-#portfolio-nav, #portfolio-nav-portfolio {
+#portfolio-nav,
+#portfolio-nav-portfolio {
     margin: 0rem 0rem 0rem 25rem;
 }
 
@@ -131,13 +136,29 @@ button:focus {
     color: rgb(135, 103, 221) !important;
 }
 
-/* .banner-border {
-    background: rgb(24, 19, 29);
-} */
+.beaker-banner {
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/beaker-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-.banner {
-    height: 70vh;
-    margin-top: 72px;
+.banner-border {
+    background: rgb(24, 19, 29);
+}
+
+.pyramid-banner {
+    height: 800px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +194,8 @@ button:focus {
 } */
 
 .microgurt-row {
-    background: rgb(246, 108, 94);
+    /* background: rgb(169, 163, 175); */
+    background: rgb(77, 110, 141);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -189,13 +211,19 @@ button:focus {
 }
 
 .flexafont-row {
-    background: rgb(255, 172, 88);
+    /* background: rgb(75, 221, 107); */
+    background: rgb(92, 93, 121);
 }
 
-.tulum-row {
-    background: rgb(116, 224, 212);
-    /* background: url("../images/beakers.jpg");
-    background-position: center 14%;
+.haley-row {
+    background: white
+}
+
+.new2dev-row {
+    /* background: rgb(116, 224, 212); */
+    background: rgb(105, 91, 119);
+    /* background: url("../images/radar.jpg");
+    background-position: center bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -203,14 +231,10 @@ button:focus {
     background-size: cover; */
 }
 
-.haley-row {
-   background: white
-}
-
-.new2dev-row {
-    background: rgb(246, 108, 94);
-    /* background: url("../images/radar.jpg");
-    background-position: center bottom;
+.tulum-row {
+    background: white
+        /* background: url("../images/beakers.jpg");
+    background-position: center 14%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -222,7 +246,7 @@ button:focus {
     cursor: pointer;
     margin-bottom: 20px;
     width: 100%;
-    height: 550px;
+    height: 520px;
     background-image: url();
     background-position: center 0;
     background-repeat: no-repeat;
@@ -247,7 +271,7 @@ button:focus {
     cursor: pointer;
     margin-bottom: 20px;
     width: 100%;
-    height: 550px;
+    height: 520px;
     background-position: left 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,7 +312,7 @@ button:focus {
 .btn {
     color: white;
     font-weight: 500;
-    background:  rgb(53, 42, 65);
+    background: rgb(24, 19, 29);
     margin: 20px auto 0px auto;
     display: block;
     width: 179px;
@@ -304,13 +328,13 @@ button:focus {
 
 .btn:active {
     color: white;
-    background: rgb(34, 27, 41);
+    background: rgb(53, 42, 65);
     box-shadow: none;
 }
 
 .btn:focus {
     color: white;
-    background: rgb(34, 27, 41);
+    background: rgb(53, 42, 65);
     box-shadow: none;
 }
 
@@ -341,9 +365,15 @@ button:focus {
 }
 
 .section-title {
+    color: rgb(24, 19, 29);
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
-    font-weight: bold;
+}
+
+.section-title-alt {
+    color: white;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
 }
 
 .content-section {
@@ -462,7 +492,7 @@ button:focus {
 }
 
 .about-row {
-    background: rgb(116, 224, 212);
+    background: rgb(92, 93, 121);
     padding: 60px 0 60px 0;
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
@@ -492,6 +522,11 @@ button:focus {
     padding-right: 30px;
 }
 
+.thin-padding {
+    padding: 20px;
+    background: rgb(219, 220, 240);
+}
+
 .portrait {
     width: 80%;
 }
@@ -516,12 +551,16 @@ button:focus {
 }
 
 .skill-item {
-    padding: 10px 20px;
+    padding: 10px 100px;
 }
 
 .education-row {
-    background: rgb(246, 108, 94);
+    background: rgb(105, 91, 119);
     padding: 60px 0 60px 0;
+}
+
+.education-background {
+    background: rgb(226, 217, 235);
 }
 
 .page-education-title {
@@ -559,7 +598,7 @@ button:focus {
     cursor: pointer;
     margin-bottom: 20px;
     width: 100%;
-    height: 550px;
+    height: 520px;
     background-image: url(../images/webdev-thumbnail.jpg);
     background-position: center 0;
     background-repeat: no-repeat;
@@ -567,7 +606,7 @@ button:focus {
     /* border: 10px solid rgb(24, 19, 29); */
 }
 
-.about-banner {
+/* .about-banner {
     height: 54vh;
     display: flex;
     justify-content: center;
@@ -580,7 +619,7 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 
 /* =============================== */
@@ -627,7 +666,7 @@ button:focus {
 
 .new2dev-portfolio-row {
     background: url("../images/radar-flip.jpg");
-    background-position: center bottom;
+    background-position: 40% bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -640,61 +679,64 @@ button:focus {
 /* Media Queries */
 /* =============================== */
 
+@media only screen and (max-width: 1600px) {
+    .portrait {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .thumbnail-description {
         width: 70%;
     }
 
-    .thumb, .big8-thumb, .webdev-thumb {
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
         height: 400px;
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    .beaker-banner {
+        height: 500px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
-    #portfolio-nav, #portfolio-nav-portfolio {
+
+    #portfolio-nav,
+    #portfolio-nav-portfolio {
         margin: 0rem 0rem 0rem 0rem;
     }
+}
 
-    .banner {
-        height: 38vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: url(../images/pyramid.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
+@media only screen and (max-width: 1100px) {
+    .beaker-banner {
+        height: 400px;
+    }
+
+    .pyramid-banner {
+        height: 700px;
     }
 }
 
 @media only screen and (max-width: 1023px) {
-    .banner {
-        height: 47vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: url(../images/pyramid.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
-    }
 
-    .thumb, .big8-thumb, .webdev-thumb {
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
         height: 300px;
     }
 }
 
 @media only screen and (max-width: 992px) {
     .navbar-expand-md .navbar-nav .nav-link {
-        padding: 1rem 1.8rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .pyramid-banner {
+        height: 640px;
     }
 
     #contact-nav {
@@ -709,11 +751,20 @@ button:focus {
     #portfolio-nav-portfolio,
     #about-nav-about {
         padding: 0rem 0rem;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
-    
+
     .about-paragraph-format {
         padding: 30px;
+    }
+
+    .portrait {
+        padding-bottom: 30px;
+        width: 60%;
+    }
+
+    .skill-item {
+        padding: 10px 50px;
     }
 
     .footer-content {
@@ -721,8 +772,25 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 860px) {
+    .beaker-banner {
+        height: 300px;
+    }
+
+    .pyramid-banner {
+        height: 560px;
+    }
+
+    .space72 {
+        height: 30px;
+    }
+}
+
 @media only screen and (max-width: 770px) {
-    .thumb, .big8-thumb, .webdev-thumb {
+
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
         width: 100%;
     }
 
@@ -731,6 +799,23 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .pyramid-banner {
+        height: 700px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(../images/pyramid-small.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
 
 @media only screen and (max-width: 767px) {
     .thumbnail-format {
@@ -738,12 +823,13 @@ button:focus {
         margin-bottom: 20px;
     }
 
-    .banner {
-        margin-top: 56px;
+    .about-paragraph-format {
+        padding: 0;
     }
 }
 
 @media only screen and (max-width: 750px) {
+
     .page-title,
     .about-title,
     .skills-title {
@@ -752,6 +838,10 @@ button:focus {
 
     .portfolio-title {
         padding: 100px 0 20px 0;
+    }
+
+    .skill-item {
+        padding: 10px 20px;
     }
 
     .page-education-title {
@@ -771,26 +861,38 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .beaker-banner {
+        height: 250px;
+    }
+
+    .pyramid-banner {
+        height: 600px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .banner {
-        height: 87vh;
-        margin-top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: url(../images/pyramid-small.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
+    .portrait {
+        width: 80%;
+    }
+
+    .pyramid-banner {
+        height: 540px;
     }
 }
 
 @media only screen and (max-width: 580px) {
-    .thumb, .big8-thumb, .webdev-thumb {
+    .beaker-banner {
+        height: 220px;
+    }
+    
+    .pyramid-banner {
+        height: 514px;
+    }
+
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
         margin-bottom: 0;
     }
 
@@ -820,11 +922,19 @@ button:focus {
     }
 
     .footer-items {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
 
 @media only screen and (max-width: 500px) {
+    .beaker-banner {
+        height: 200px;
+    }
+    
+    .pyramid-banner {
+        height: 440px;
+    }
+
     .container {
         padding-left: 0;
         padding-right: 0;
@@ -839,6 +949,10 @@ button:focus {
         font-size: 2rem;
     }
 
+    .skill-item {
+        padding: 10px 28px;
+    }
+
     .course {
         font-size: 1.3rem;
     }
@@ -848,3 +962,36 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .beaker-banner {
+        height: 160px;
+    }
+    
+    .pyramid-banner {
+        height: 390px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pyramid-banner {
+        height: 334px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 1rem 1.1rem;
+    }
+
+    .beaker-banner {
+        height: 150px;
+    }
+
+    .pyramid-banner {
+        height: 292px;
+    }
+
+    .skill-item {
+        padding: 10px 18px;
+    }
+}
