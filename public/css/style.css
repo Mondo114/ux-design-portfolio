@@ -195,7 +195,7 @@ button:focus {
 
 .microgurt-row {
     /* background: rgb(169, 163, 175); */
-    background: rgb(77, 110, 141);
+    background: rgb(105, 91, 119);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -212,7 +212,7 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(92, 93, 121);
+    background: rgb(77, 110, 141);
 }
 
 .haley-row {
@@ -221,7 +221,7 @@ button:focus {
 
 .new2dev-row {
     /* background: rgb(116, 224, 212); */
-    background: rgb(105, 91, 119);
+    background: rgb(92, 93, 121);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -885,7 +885,7 @@ button:focus {
     .beaker-banner {
         height: 220px;
     }
-    
+
     .pyramid-banner {
         height: 514px;
     }
@@ -930,7 +930,7 @@ button:focus {
     .beaker-banner {
         height: 200px;
     }
-    
+
     .pyramid-banner {
         height: 440px;
     }
@@ -966,7 +966,7 @@ button:focus {
     .beaker-banner {
         height: 160px;
     }
-    
+
     .pyramid-banner {
         height: 390px;
     }
