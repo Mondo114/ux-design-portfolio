@@ -62,7 +62,7 @@ $(document).ready(function () {
     // Home
     $("#home-nav").on("click", function (event) {
         $('html,body').animate({
-            scrollTop: $("#home-connect").offset().top
+            scrollTop: $("#home-connect").offset().top - 72
         }, 'slow');
     });
 
