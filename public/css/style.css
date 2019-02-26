@@ -492,7 +492,7 @@ button:focus {
 }
 
 .about-row {
-    background: rgb(92, 93, 121);
+    background: rgb(125, 195, 193);
     padding: 60px 0 60px 0;
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
@@ -524,7 +524,7 @@ button:focus {
 
 .thin-padding {
     padding: 20px;
-    background: rgb(219, 220, 240);
+    background: rgb(207, 248, 247);
 }
 
 .portrait {
@@ -555,12 +555,12 @@ button:focus {
 }
 
 .education-row {
-    background: rgb(105, 91, 119);
+    background: rgb(68, 81, 104);
     padding: 60px 0 60px 0;
 }
 
 .education-background {
-    background: rgb(226, 217, 235);
+    background: rgb(211, 223, 243);
 }
 
 .page-education-title {
