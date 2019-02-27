@@ -8,8 +8,17 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+p {
+    font-size: 18px;
+}
+
+.indent {
+    text-indent: 50px;
+  }
+
 a {
     color: white;
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -195,7 +204,7 @@ button:focus {
 
 .microgurt-row {
     /* background: rgb(169, 163, 175); */
-    background: rgb(105, 91, 119);
+    background: rgb(114, 100, 128);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -212,7 +221,7 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(77, 110, 141);
+    background: rgb(88, 106, 153);
 }
 
 .haley-row {
@@ -221,7 +230,7 @@ button:focus {
 
 .new2dev-row {
     /* background: rgb(116, 224, 212); */
-    background: rgb(92, 93, 121);
+    background: rgb(86, 88, 129);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -300,8 +309,8 @@ button:focus {
 }
 
 .thumbnail-format {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -322,19 +331,19 @@ button:focus {
 
 .btn:hover {
     color: white;
-    background: rgb(95, 75, 116);
+    background: rgb(169, 150, 189);
     box-shadow: none;
 }
 
 .btn:active {
     color: white;
-    background: rgb(53, 42, 65);
+    background: rgb(80, 66, 94);
     box-shadow: none;
 }
 
 .btn:focus {
     color: white;
-    background: rgb(53, 42, 65);
+    background:  rgb(80, 66, 94);
     box-shadow: none;
 }
 
@@ -352,7 +361,7 @@ button:focus {
 
 .project-title {
     padding-top: 174px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
 }
@@ -366,6 +375,7 @@ button:focus {
 
 .section-title {
     color: rgb(24, 19, 29);
+    padding-bottom: 30px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
 }
@@ -492,7 +502,7 @@ button:focus {
 }
 
 .about-row {
-    background: rgb(125, 195, 193);
+    background: rgb(122, 172, 196);
     padding: 60px 0 60px 0;
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
@@ -524,7 +534,8 @@ button:focus {
 
 .thin-padding {
     padding: 20px;
-    background: rgb(207, 248, 247);
+    background: rgb(222, 236, 241);
+    border-radius: 8px;
 }
 
 .portrait {
@@ -555,12 +566,13 @@ button:focus {
 }
 
 .education-row {
-    background: rgb(68, 81, 104);
+    background: rgb(83, 148, 190);
     padding: 60px 0 60px 0;
 }
 
 .education-background {
-    background: rgb(211, 223, 243);
+    background: rgb(222, 236, 241);
+    border-radius: 8px;
 }
 
 .page-education-title {
@@ -635,15 +647,20 @@ button:focus {
 }
 
 .assignment-section {
-    padding-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+.portfolio-background {
+    /* background: wheat; */
+    padding-top: 40px;
+    border-radius: 8px;
+}
+
 .annotation {
     background: white;
-    border-radius: 40px;
+    border-radius: 8px;
     margin-top: 40px;
     padding: 20px;
 }
@@ -868,6 +885,22 @@ button:focus {
 
     .pyramid-banner {
         height: 600px;
+    }
+
+    .about-row {
+        padding: 20px 0 20px 0;
+    }
+
+    .thin-padding {
+        border-radius: 0;
+    }
+
+    .education-row {
+        padding: 20px 0 20px 0;
+    }
+
+    .education-background {
+        border-radius: 0;
     }
 }
 
