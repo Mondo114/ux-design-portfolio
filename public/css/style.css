@@ -14,7 +14,7 @@ p {
 
 .indent {
     text-indent: 50px;
-  }
+}
 
 a {
     color: white;
@@ -346,7 +346,7 @@ button:focus {
 
 .btn:focus {
     color: white;
-    background:  rgb(80, 66, 94);
+    background: rgb(80, 66, 94);
     box-shadow: none;
 }
 
@@ -487,156 +487,14 @@ button:focus {
 
 
 /* =============================== */
-/* About Page */
-/* =============================== */
-
-.about-title {
-    color: rgb(24, 19, 29);
-    font-size: 60px;
-    text-align: center;
-    padding: 168px 0 20px 0;
-    font-family: 'Spinnaker', sans-serif;
-}
-
-.about-row {
-    /* background: rgb(122, 172, 196); */
-    background: rgb(209, 255, 255);
-    background-image: url(../images/tile1.png);
-    padding: 60px 0 60px 0;
-    /* background: url("../images/redondo.jpg");
-    background-position: center 24%;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-}
-
-.portrait-row {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.portrait-format {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-paragraph-format {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-right: 30px;
-}
-
-.thin-padding {
-    padding: 20px;
-    /* background: rgb(222, 236, 241); */
-    border-radius: 8px;
-}
-
-.portrait {
-    width: 80%;
-}
-
-.skills-row {
-    padding: 60px 0 60px 0;
-    background: rgb(24, 19, 29);
-}
-
-.skills-title {
-    color: white;
-    text-align: center;
-    padding: 12px 0 20px 0;
-    font-family: 'Spinnaker', sans-serif;
-}
-
-.skills-section {
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill-item {
-    padding: 20px 100px;
-    color: white;
-}
-
-.education-row {
-    padding: 60px 0 60px 0;
-    background: rgb(114, 100, 128);
-    background-image: url(../images/tile1.png);
-}
-
-.education-background {
-    border-radius: 8px;
-    background: white;
-}
-
-.page-education-title {
-    /* font-size: 60px; */
-    text-align: center;
-    padding: 20px 0 20px 0;
-    font-family: 'Spinnaker', sans-serif;
-}
-
-.education-title {
-    font-family: 'Spinnaker', sans-serif;
-}
-
-.education-section {
-    padding: 10px;
-}
-
-.development-title {
-    text-align: center;
-    padding: 20px 0 20px 0;
-    font-family: 'Spinnaker', sans-serif;
-}
-
-/* .development-subtitle {
-    color: white;
-} */
-
-.development-row {
-    background: white;
-    padding: 60px 0 60px 0;
-}
-
-.webdev-thumb {
-    cursor: pointer;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 520px;
-    background-image: url(../images/webdev-thumbnail.jpg);
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* border: 10px solid rgb(24, 19, 29); */
-}
-
-/* .about-banner {
-    height: 54vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url("../images/banner-lightning2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-
-/* =============================== */
 /* Portfolio Pages */
 /* =============================== */
+
+.portfolio-title {
+    color: rgb(24, 19, 29);
+    border-top: 72px solid rgb(24, 19, 29);
+    margin-top: 40px;
+}
 
 .first-paragraph {
     padding-top: 20px;
@@ -707,6 +565,16 @@ button:focus {
     background: rgb(172, 181, 209);
 }
 
+.microgurt-btn {
+    margin: 10px auto 20px auto;
+}
+
+.big8-title {
+    color: white;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
 .flexafont-background {
     padding-bottom: 40px;
 }
@@ -718,9 +586,23 @@ button:focus {
     padding: 20px 20px 40px 20px;
     border-radius: 8px;
 }
+
+.question-title {
+    color: rgb(51, 116, 114);
+}
+
 .flexafont-wireframes {
     background: white;
 }
+
+/* .flexafont-wireframes:first-child {
+    padding-top: 20px;
+} */
+
+.flexafont-wireframes:last-child {
+    padding-bottom: 20px;
+}
+
 
 .startup-row {
     /* padding: 60px 0 60px 0; */
@@ -753,6 +635,157 @@ button:focus {
 .startup-title {
     color: white;
 }
+
+
+/* =============================== */
+/* About Page */
+/* =============================== */
+
+.about-title {
+    color: rgb(24, 19, 29);
+    font-size: 60px;
+    text-align: center;
+    padding: 168px 0 20px 0;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.about-row {
+    /* background: rgb(122, 172, 196); */
+    background: rgb(209, 255, 255);
+    background-image: url(../images/tile1.png);
+    /* background: url("../images/redondo.jpg");
+    background-position: center 24%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.portrait-row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.portrait-format {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-paragraph-format {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.thin-padding {
+    padding: 20px;
+    /* background: rgb(222, 236, 241); */
+    border-radius: 8px;
+}
+
+.portrait {
+    width: 80%;
+}
+
+.skills-row {
+    padding: 20px 0 20px 0;
+    background: rgb(24, 19, 29);
+}
+
+.skills-title {
+    color: white;
+    text-align: center;
+    padding: 12px 0 20px 0;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item {
+    padding: 20px 100px;
+    color: white;
+}
+
+.education-row {
+    padding: 60px 0 60px 0;
+    background: rgb(100, 103, 128);
+    background-image: url(../images/tile1.png);
+}
+
+.education-background {
+    border-radius: 8px;
+    background: white;
+}
+
+.page-education-title {
+    /* font-size: 60px; */
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.education-title {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.education-section {
+    padding: 10px;
+}
+
+.course {
+    color: rgb(248, 115, 66);
+}
+
+.development-title {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+/* .development-subtitle {
+    color: white;
+} */
+
+.development-row {
+    background: white;
+    padding: 20px 0 20px 0;
+}
+
+.webdev-thumb {
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 520px;
+    background-image: url(../images/webdev-thumbnail.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 10px solid rgb(24, 19, 29); */
+}
+
+/* .about-banner {
+    height: 54vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/banner-lightning2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
 
 
 /* =============================== */
@@ -869,6 +902,10 @@ button:focus {
         height: 560px;
     }
 
+    .portfolio-title {
+        border-top: 30px solid rgb(24, 19, 29);
+    }
+
     .space72 {
         height: 30px;
     }
@@ -931,7 +968,7 @@ button:focus {
         padding: 80px 0 20px 0;
     }
 
-    
+
     .skill-item {
         padding: 10px 20px;
     }
@@ -997,7 +1034,7 @@ button:focus {
     .webdev-thumb {
         width: 100%;
     }
-    
+
     .portfolio-background {
         padding-left: 0 !important;
         padding-right: 0 !important;
