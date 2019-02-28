@@ -222,7 +222,7 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(109, 117, 139);
+    background: rgb(98, 109, 139);
     background-image: url(../images/tile1.png);
 }
 
@@ -499,6 +499,8 @@ button:focus {
 
 .about-row {
     /* background: rgb(122, 172, 196); */
+    background: rgb(209, 255, 255);
+    background-image: url(../images/tile1.png);
     padding: 60px 0 60px 0;
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
@@ -540,13 +542,11 @@ button:focus {
 
 .skills-row {
     padding: 60px 0 60px 0;
-    background: rgb(209, 255, 255);
-    background-image: url(../images/tile1.png);
+    background: rgb(24, 19, 29);
 }
 
 .skills-title {
-    color: rgb(24, 19, 29);
-    /* font-size: 60px; */
+    color: white;
     text-align: center;
     padding: 12px 0 20px 0;
     font-family: 'Spinnaker', sans-serif;
@@ -561,21 +561,21 @@ button:focus {
 
 .skill-item {
     padding: 20px 100px;
+    color: white;
 }
 
 .education-row {
-    background: rgb(24, 19, 29);
     padding: 60px 0 60px 0;
+    background: rgb(114, 100, 128);
+    background-image: url(../images/tile1.png);
 }
 
 .education-background {
-    background: rgb(24, 19, 29);
     border-radius: 8px;
-    color: white;
+    background: white;
 }
 
 .page-education-title {
-    color: white;
     /* font-size: 60px; */
     text-align: center;
     padding: 20px 0 20px 0;
