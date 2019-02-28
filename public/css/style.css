@@ -829,13 +829,6 @@ button:focus {
 }
 
 @media only screen and (max-width: 770px) {
-
-    .thumb,
-    .big8-thumb,
-    .webdev-thumb {
-        width: 100%;
-    }
-
     .content-structure-mobile {
         width: 60%;
     }
@@ -863,6 +856,12 @@ button:focus {
     .thumbnail-format {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
+        width: 60%;
     }
 
     .about-paragraph-format {
@@ -942,6 +941,28 @@ button:focus {
     .pyramid-banner {
         height: 540px;
     }
+
+    .thumb,
+    .big8-thumb,
+    .webdev-thumb {
+        width: 100%;
+    }
+    
+    .portfolio-background {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border-radius: 0;
+    }
+
+    .assignment-row {
+        border-radius: 0;
+        padding: 40px 5px 30px 5px;
+    }
+
+    /* .annotation {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } */
 }
 
 @media only screen and (max-width: 580px) {
