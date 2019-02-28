@@ -205,6 +205,7 @@ button:focus {
 .microgurt-row {
     /* background: rgb(169, 163, 175); */
     background: rgb(114, 100, 128);
+    background-image: url(../images/tile1.png);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -221,7 +222,8 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(156, 166, 190);
+    background: rgb(109, 117, 139);
+    background-image: url(../images/tile1.png);
 }
 
 .haley-row {
@@ -231,6 +233,7 @@ button:focus {
 .new2dev-row {
     /* background: rgb(116, 224, 212); */
     background: rgb(76, 59, 90);
+    background-image: url(../images/tile1.png);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -364,13 +367,6 @@ button:focus {
     padding-bottom: 60px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
-}
-
-.underline {
-    /* height: 4px;
-    background: rgb(24, 19, 29);
-    text-align: center;
-    border-radius: 5px; */
 }
 
 .section-title {
@@ -544,7 +540,8 @@ button:focus {
 
 .skills-row {
     padding: 60px 0 60px 0;
-    background: rgb(187, 218, 218);
+    background: rgb(209, 255, 255);
+    background-image: url(../images/tile1.png);
 }
 
 .skills-title {
@@ -645,7 +642,11 @@ button:focus {
 }
 
 .assignment-row {
-    background: white;
+    padding: 40px 20px 30px 20px;
+    color: white;
+    background: rgb(51, 116, 114);
+    background-image: url(../images/tile1.png);
+    border-radius: 8px;
 }
 
 .assignment-section {
@@ -663,7 +664,7 @@ button:focus {
 }
 
 .portfolio-background {
-    background: wheat;
+    background: rgb(24, 19, 29);
     padding-top: 40px;
     border-radius: 8px;
 }
@@ -676,7 +677,9 @@ button:focus {
 }
 
 .startup-row {
-    padding: 60px 0 60px 0;
+    /* padding: 60px 0 60px 0; */
+    background: rgb(40, 97, 66);
+    background-image: url(../images/tile1.png);
 }
 
 .antlersandacorns-thumb {
@@ -699,6 +702,10 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.startup-title {
+    color: white;
 }
 
 
