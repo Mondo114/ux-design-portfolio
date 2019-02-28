@@ -681,6 +681,32 @@ button:focus {
     padding: 20px;
 }
 
+.microgurt-background {
+    background: rgb(227, 233, 253);
+    padding-top: 40px;
+    border-radius: 8px;
+}
+
+.microgurt-title {
+    padding-top: 40px;
+    color: rgb(24, 19, 29);
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.microgurt-research {
+    background: rgb(214, 245, 228);
+}
+
+.microgurt-strategy {
+    background: rgb(215, 226, 250);
+}
+
+.microgurt-outline {
+    background: rgb(172, 181, 209);
+}
+
 .flexafont-background {
     padding-bottom: 40px;
 }
