@@ -222,7 +222,7 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(98, 109, 139);
+    background: rgb(87, 101, 139);
     background-image: url(../images/tile1.png);
 }
 
@@ -654,6 +654,10 @@ button:focus {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.title-color {
+    color: rgb(24, 19, 29);
 }
 
 .explanation-section {
