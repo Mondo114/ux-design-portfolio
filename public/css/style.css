@@ -404,10 +404,11 @@ button:focus {
 }
 
 .content-structure-mobile {
-    width: 40%;
+    /* width: 40%; */
     padding: 20px;
     margin: auto;
     display: block;
+    /* filter: drop-shadow(0px 6px 9px white); */
 }
 
 .btn-prototype {
@@ -680,6 +681,21 @@ button:focus {
     padding: 20px;
 }
 
+.flexafont-background {
+    padding-bottom: 40px;
+}
+
+.flexafont-midsection {
+    background: white;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 8px;
+}
+.flexafont-wireframes {
+    background: white;
+}
+
 .startup-row {
     /* padding: 60px 0 60px 0; */
     background: rgb(40, 97, 66);
@@ -750,6 +766,10 @@ button:focus {
     #portfolio-nav,
     #portfolio-nav-portfolio {
         margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .portfolio-background {
+        border-radius: 0;
     }
 }
 
