@@ -12,9 +12,9 @@ p {
     font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: 'Spinnaker', sans-serif;
-}
+} */
 
 .indent {
     text-indent: 50px;
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: rgb(135, 103, 221);
+    color: rgb(66, 175, 248);
 }
 
 .space1 {
@@ -132,12 +132,12 @@ button:focus {
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(160, 129, 245) !important;
+    color: rgb(66, 175, 248) !important;
 }
 
 .nav-link:active {
     cursor: pointer;
-    color: rgb(135, 103, 221) !important;
+    color: rgb(66, 175, 248) !important;
 }
 
 .beaker-banner {
@@ -370,7 +370,7 @@ button:focus {
 }
 
 .section-title {
-    color: rgb(24, 19, 29);
+    color: rgb(64, 156, 218);
     padding-bottom: 20px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
@@ -378,6 +378,13 @@ button:focus {
 
 .section-title-alt {
     color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.section-subtitle {
+    color: rgb(94, 55, 131);
     padding-bottom: 20px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
