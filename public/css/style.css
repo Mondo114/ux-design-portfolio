@@ -318,29 +318,34 @@ button:focus {
 .btn {
     color: white;
     font-weight: 500;
-    background: rgb(24, 19, 29);
+    /* background-image: linear-gradient(white 1%, rgb(82, 67, 99) 49%, rgb(24, 19, 29) 50%); */
+    background: rgb(66, 175, 248);
     margin: 20px auto 0px auto;
     display: block;
     width: 179px;
     height: 49px;
     box-shadow: none;
+    /* border: 1px solid rgb(24, 19, 29); */
+    transition: 0.5s;
 }
 
 .btn:hover {
     color: white;
-    background: rgb(169, 150, 189);
+    /* background-image: linear-gradient(white 1%, rgb(105, 86, 126) 49%, rgb(48, 38, 58) 50%); */
+    background: rgb(142, 210, 255);
     box-shadow: none;
+    transition: 0.5s;
 }
 
 .btn:active {
     color: white;
-    background: rgb(80, 66, 94);
+    background: rgb(48, 136, 196);
     box-shadow: none;
 }
 
 .btn:focus {
     color: white;
-    background: rgb(80, 66, 94);
+    background: rgb(48, 136, 196);
     box-shadow: none;
 }
 
