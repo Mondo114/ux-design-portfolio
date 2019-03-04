@@ -166,13 +166,13 @@ button:focus {
 }
 
 .banner-title {
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Spinnaker', sans-serif;
     padding: 20px;
 }
 
 .banner-subtitle {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Spinnaker', sans-serif;
     padding: 20px;
 }
@@ -799,7 +799,7 @@ button:focus {
 
 .development-row {
     background: white;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 60px 0;
 }
 
 .webdev-thumb {
@@ -957,6 +957,10 @@ button:focus {
         height: 30px;
     }
 
+    .tulum-format {
+        padding-bottom: 60px;
+    }
+
     .skill-item {
         padding: 10px 30px;
     }
@@ -987,6 +991,15 @@ button:focus {
 }
 
 @media only screen and (max-width: 767px) {
+    .banner-title {
+        font-size: 40px;
+    }
+    
+    .banner-subtitle {
+        font-size: 30px;
+        padding: 0;
+    }
+    
     .thumbnail-format {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -1034,6 +1047,16 @@ button:focus {
 
     .logo {
         max-width: 50px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .flexafont-container {
+        padding-bottom: 0 !important;
+    }
+
+    .flexafont-background {
+        padding-bottom: 0;
     }
 }
 
@@ -1197,6 +1220,14 @@ button:focus {
 }
 
 @media only screen and (max-width: 359px) {
+    .banner-title {
+        font-size: 30px;
+    }
+    
+    .banner-subtitle {
+        font-size: 24px;
+    }
+    
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 1rem 1.1rem;
     }
