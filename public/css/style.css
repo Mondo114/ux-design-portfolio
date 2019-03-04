@@ -140,7 +140,7 @@ button:focus {
     color: rgb(66, 175, 248) !important;
 }
 
-.beaker-banner {
+/* .beaker-banner {
     height: 600px;
     margin-top: 70px;
     display: flex;
@@ -154,6 +154,27 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+} */
+
+.banner {
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 20px;
+}
+
+.banner-subtitle {
+    font-size: 40px;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 20px;
 }
 
 .banner-border {
@@ -378,6 +399,13 @@ button:focus {
 
 .section-title-alt {
     color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.thumb-title {
+    color: rgb(24, 19, 29);
     padding-bottom: 20px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
