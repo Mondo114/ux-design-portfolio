@@ -140,7 +140,7 @@ button:focus {
     color: rgb(66, 175, 248) !important;
 }
 
-/* .beaker-banner {
+.beaker-banner {
     height: 600px;
     margin-top: 70px;
     display: flex;
@@ -154,27 +154,33 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-} */
+}
 
 .banner {
     height: 600px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 
 .banner-title {
     font-size: 70px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
 }
 
 .banner-subtitle {
     font-size: 50px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.banner-subtitle2 {
+    font-size: 30px;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 60px 0px 0px 0px;
 }
 
 .banner-border {
@@ -182,7 +188,7 @@ button:focus {
 }
 
 .pyramid-banner {
-    height: 800px;
+    height: 560px;
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -195,6 +201,12 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.portfolio-title {
+    color: rgb(66, 175, 248);
+    /* border-top: 72px solid rgb(24, 19, 29); */
+    margin-top: 40px;
 }
 
 .col {
@@ -523,12 +535,6 @@ button:focus {
 /* =============================== */
 /* Portfolio Pages */
 /* =============================== */
-
-.portfolio-title {
-    color: rgb(66, 175, 248);
-    border-top: 72px solid rgb(24, 19, 29);
-    margin-top: 40px;
-}
 
 .first-paragraph {
     padding-top: 20px;
