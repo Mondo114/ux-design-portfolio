@@ -725,7 +725,7 @@ button:focus {
 }
 
 .portrait {
-    width: 70%;
+    width: 60%;
     padding: 40px 0px 40px 0px;
 }
 
@@ -844,7 +844,7 @@ button:focus {
 
 @media only screen and (max-width: 1600px) {
     .portrait {
-        width: 80%;
+        width: 70%;
     }
 }
 
