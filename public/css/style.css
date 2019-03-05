@@ -631,7 +631,8 @@ button:focus {
 }
 
 .question-title {
-    color: rgb(53, 135, 190);;
+    color: rgb(53, 135, 190);
+    ;
 }
 
 .flexafont-wireframes {
@@ -734,12 +735,12 @@ button:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* padding-right: 30px; */
+    padding: 40px 40px 40px 40px;
 }
 
 .thin-padding {
-    padding: 20px 60px 20px 20px;
-    /* background: rgb(222, 236, 241); */
+    padding: 20px 20px 20px 20px;
+    background: white;
     border-radius: 8px;
 }
 
@@ -858,10 +859,6 @@ button:focus {
     .webdev-thumb {
         height: 400px;
     }
-
-    .thin-padding {
-        padding: 20px 20px 20px 20px;
-    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -946,7 +943,7 @@ button:focus {
 
     .portrait {
         width: 60%;
-        padding: 20px 0 0 0;
+        padding: 20px 0 20px 0;
     }
 
     .skill-item {
@@ -1031,6 +1028,10 @@ button:focus {
     .webdev-thumb {
         width: 60%;
     }
+    
+    .thin-padding {
+        border-radius: 0;
+    }
 
     .about-paragraph-format {
         padding: 0;
@@ -1045,9 +1046,9 @@ button:focus {
         font-size: 40px;
     }
 
-    .portfolio-title {
+    /* .portfolio-title {
         padding: 0 0 20px 0;
-    }
+    } */
 
     .skill-item {
         padding: 10px 20px;
@@ -1092,10 +1093,6 @@ button:focus {
 
     .portfolio-container {
         padding-bottom: 60px;
-    }
-
-    .thin-padding {
-        border-radius: 0;
     }
 
     .skill-item {
