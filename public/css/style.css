@@ -763,12 +763,12 @@ button:focus {
 
 .skill-item {
     padding: 20px 100px;
-    color: coral;
+    color: rgb(189, 186, 184);
 }
 
 .education-row {
     padding: 60px 0 60px 0;
-    background: rgb(100, 103, 128);
+    background: coral;
     background-image: url(../images/tile1.png);
 }
 
