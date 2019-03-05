@@ -768,7 +768,7 @@ button:focus {
 
 .education-row {
     padding: 60px 0 60px 0;
-    background: coral;
+    background: rgb(73, 147, 196);
     background-image: url(../images/tile1.png);
 }
 
