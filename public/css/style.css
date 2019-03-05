@@ -544,7 +544,7 @@ button:focus {
 .assignment-row {
     padding: 40px 20px 30px 20px;
     color: white;
-    background: rgb(76, 168, 197);
+    background: rgb(48, 129, 116);
     background-image: url(../images/tile1.png);
     border-radius: 8px;
 }
@@ -749,7 +749,7 @@ button:focus {
 }
 
 .skills-title {
-    color: rgb(66, 175, 248);
+    color: rgb(66, 145, 248);
     text-align: center;
     padding: 12px 0 20px 0;
     font-family: 'Spinnaker', sans-serif;
@@ -769,7 +769,7 @@ button:focus {
 
 .education-row {
     padding: 60px 0 60px 0;
-    background: rgb(175, 210, 255);
+    background: rgb(64, 86, 116);
     background-image: url(../images/tile1.png);
 }
 
