@@ -726,7 +726,7 @@ button:focus {
 
 .portrait {
     width: 70%;
-    padding: 40px;
+    padding: 40px 0px 40px 0px;
 }
 
 .about-paragraph-format {
@@ -738,7 +738,7 @@ button:focus {
 }
 
 .thin-padding {
-    padding: 20px;
+    padding: 20px 60px 20px 20px;
     /* background: rgb(222, 236, 241); */
     border-radius: 8px;
 }
@@ -857,6 +857,10 @@ button:focus {
     .big8-thumb,
     .webdev-thumb {
         height: 400px;
+    }
+
+    .thin-padding {
+        padding: 20px 20px 20px 20px;
     }
 }
 
