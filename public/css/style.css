@@ -544,7 +544,7 @@ button:focus {
 .assignment-row {
     padding: 40px 20px 30px 20px;
     color: white;
-    background: rgb(51, 116, 114);
+    background: rgb(76, 168, 197);
     background-image: url(../images/tile1.png);
     border-radius: 8px;
 }
@@ -613,7 +613,7 @@ button:focus {
 }
 
 .microgurt-outline {
-    background: rgb(230, 223, 247);
+    background: rgb(228, 223, 247);
 }
 
 .microgurt-btn {
@@ -631,7 +631,7 @@ button:focus {
 }
 
 .question-title {
-    color: rgb(51, 116, 114);
+    color: rgb(53, 135, 190);;
 }
 
 .flexafont-wireframes {
@@ -648,7 +648,7 @@ button:focus {
 
 .startup-row {
     /* padding: 60px 0 60px 0; */
-    background: rgb(40, 97, 66);
+    background: rgb(40, 97, 89);
     background-image: url(../images/tile1.png);
 }
 
@@ -702,7 +702,7 @@ button:focus {
 
 .about-row {
     /* background: rgb(122, 172, 196); */
-    background: rgb(209, 255, 255);
+    background: rgb(175, 248, 255);
     background-image: url(../images/tile1.png);
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
@@ -724,6 +724,11 @@ button:focus {
     justify-content: center;
 }
 
+.portrait {
+    width: 70%;
+    padding: 40px;
+}
+
 .about-paragraph-format {
     display: flex;
     align-items: center;
@@ -736,10 +741,6 @@ button:focus {
     padding: 20px;
     /* background: rgb(222, 236, 241); */
     border-radius: 8px;
-}
-
-.portrait {
-    width: 80%;
 }
 
 .skills-row {
@@ -763,12 +764,12 @@ button:focus {
 
 .skill-item {
     padding: 20px 100px;
-    color: rgb(189, 186, 184);
+    color: coral;
 }
 
 .education-row {
     padding: 60px 0 60px 0;
-    background: rgb(73, 147, 196);
+    background: rgb(175, 210, 255);
     background-image: url(../images/tile1.png);
 }
 
@@ -785,7 +786,7 @@ button:focus {
 }
 
 .education-title {
-    color: rgb(35, 85, 119);
+    color: rgb(53, 135, 190);
     font-family: 'Spinnaker', sans-serif;
 }
 
@@ -843,7 +844,7 @@ button:focus {
 
 @media only screen and (max-width: 1600px) {
     .portrait {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -879,6 +880,10 @@ button:focus {
     .portfolio-background {
         border-radius: 0;
     }
+
+    .portrait {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -893,9 +898,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 1092px) {
-    .portrait {
+    /* .portrait {
         padding-top: 40px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1023px) {
@@ -937,6 +942,7 @@ button:focus {
 
     .portrait {
         width: 60%;
+        padding: 20px 0 0 0;
     }
 
     .skill-item {
