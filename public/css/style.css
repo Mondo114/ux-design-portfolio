@@ -140,7 +140,7 @@ button:focus {
     color: rgb(66, 175, 248) !important;
 }
 
-.beaker-banner {
+/* .beaker-banner {
     height: 600px;
     margin-top: 70px;
     display: flex;
@@ -154,33 +154,34 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 .banner {
-    height: 600px;
+    height: 500px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
 }
 
 .banner-title {
+    color: rgb(66, 175, 248);
     font-size: 70px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
 }
 
 .banner-subtitle {
     font-size: 50px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
 }
 
 .banner-subtitle2 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 60px 0px 0px 0px;
+    padding: 60px 10px 0px 10px;
 }
 
 .banner-border {
@@ -188,8 +189,8 @@ button:focus {
 }
 
 .pyramid-banner {
-    height: 560px;
-    margin-top: 80px;
+    height: 580px;
+    /* margin-top: 80px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +207,7 @@ button:focus {
 .portfolio-title {
     color: rgb(66, 175, 248);
     /* border-top: 72px solid rgb(24, 19, 29); */
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .col {
@@ -886,8 +887,9 @@ button:focus {
     }
 
     .pyramid-banner {
-        height: 700px;
+        height: 500px;
     }
+
 }
 
 @media only screen and (max-width: 1092px) {
@@ -911,7 +913,7 @@ button:focus {
     }
 
     .pyramid-banner {
-        height: 640px;
+        height: 440px;
     }
 
     #contact-nav {
@@ -951,13 +953,9 @@ button:focus {
         height: 300px;
     }
 
-    .pyramid-banner {
-        height: 560px;
-    }
-
-    .portfolio-title {
+    /* .portfolio-title {
         border-top: 30px solid rgb(24, 19, 29);
-    }
+    } */
 
     .space72 {
         height: 30px;
@@ -980,8 +978,7 @@ button:focus {
 
 @media only screen and (max-width: 768px) {
     .pyramid-banner {
-        height: 700px;
-        margin-top: 100px;
+        height: 440px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -992,20 +989,28 @@ button:focus {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: contain;
     }
 }
 
 @media only screen and (max-width: 767px) {
+    .banner {
+        height: 350px;
+    }
+
     .banner-title {
         font-size: 40px;
     }
-    
+
     .banner-subtitle {
         font-size: 30px;
         padding: 0;
     }
-    
+
+    .banner-subtitle2 {
+        font-size: 20px;
+    }
+
     .thumbnail-format {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -1031,9 +1036,8 @@ button:focus {
     }
 
     .portfolio-title {
-        padding: 80px 0 20px 0;
+        padding: 0 0 20px 0;
     }
-
 
     .skill-item {
         padding: 10px 20px;
@@ -1057,6 +1061,7 @@ button:focus {
 }
 
 @media only screen and (max-width: 660px) {
+
     .flexafont-container {
         padding-bottom: 0 !important;
     }
@@ -1071,9 +1076,9 @@ button:focus {
         height: 250px;
     }
 
-    .pyramid-banner {
+    /* .pyramid-banner {
         height: 600px;
-    }
+    } */
 
     .portfolio-container {
         padding-bottom: 60px;
@@ -1101,12 +1106,12 @@ button:focus {
 }
 
 @media only screen and (max-width: 600px) {
-    .portrait {
-        width: 80%;
+    .pyramid-banner {
+        height: 390px;
     }
 
-    .pyramid-banner {
-        height: 540px;
+    .portrait {
+        width: 80%;
     }
 
     .thumb,
@@ -1135,10 +1140,6 @@ button:focus {
 @media only screen and (max-width: 580px) {
     .beaker-banner {
         height: 220px;
-    }
-
-    .pyramid-banner {
-        height: 514px;
     }
 
     .thumb,
@@ -1182,10 +1183,6 @@ button:focus {
         height: 200px;
     }
 
-    .pyramid-banner {
-        height: 440px;
-    }
-
     .container {
         padding-left: 0;
         padding-right: 0;
@@ -1213,15 +1210,15 @@ button:focus {
     .beaker-banner {
         height: 160px;
     }
-
-    .pyramid-banner {
-        height: 390px;
-    }
 }
 
 @media only screen and (max-width: 400px) {
     .pyramid-banner {
-        height: 334px;
+        height: 200px;
+    }
+
+    .portfolio-title {
+        padding: 40px 0 20px 0;
     }
 }
 
@@ -1229,11 +1226,11 @@ button:focus {
     .banner-title {
         font-size: 30px;
     }
-    
+
     .banner-subtitle {
         font-size: 24px;
     }
-    
+
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 1rem 1.1rem;
     }
