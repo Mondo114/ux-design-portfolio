@@ -544,7 +544,7 @@ button:focus {
 .assignment-row {
     padding: 40px 20px 30px 20px;
     color: white;
-    background: rgb(48, 103, 129);
+    background: rgb(64, 86, 116);
     background-image: url(../images/tile1.png);
     border-radius: 8px;
 }
@@ -655,7 +655,7 @@ button:focus {
 }
 
 .flexafont-banner {
-    height: 600px;
+    height: 700px;
     margin: 20px 0 60px 0;
     display: flex;
     justify-content: center;
