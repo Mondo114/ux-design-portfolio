@@ -544,7 +544,7 @@ button:focus {
 .assignment-row {
     padding: 40px 20px 30px 20px;
     color: white;
-    background: rgb(64, 86, 116);
+    background: rgb(55, 64, 116);
     background-image: url(../images/tile1.png);
     border-radius: 8px;
 }
@@ -655,14 +655,14 @@ button:focus {
 }
 
 .flexafont-banner {
-    height: 700px;
+    height: 600px;
     margin: 20px 0 60px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: url("../images/flexafont/flexafont-oldman.jpg");
-    background-position: center center;
+    background-position: center 46%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -826,7 +826,7 @@ button:focus {
 
 .education-row {
     padding: 60px 0 60px 0;
-    background: rgb(64, 86, 116);
+    background: rgb(55, 64, 116);
     background-image: url(../images/tile1.png);
 }
 
