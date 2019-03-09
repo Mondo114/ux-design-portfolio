@@ -1206,6 +1206,10 @@ button:focus {
         height: 200px;
     }
 
+    .portfolio-title {
+        padding-top: 80px !important;
+    }
+
     .container {
         padding-left: 0;
         padding-right: 0;
