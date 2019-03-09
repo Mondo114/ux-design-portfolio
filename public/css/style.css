@@ -1071,7 +1071,7 @@ button:focus {
     }
 
     .footer-section {
-        height: 366px;
+        height: 380px;
     }
 
     .footer-content {
@@ -1181,7 +1181,7 @@ button:focus {
 
 @media only screen and (max-width: 576px) {
     .footer-section {
-        height: 414px;
+        height: 460px;
     }
 
     .footer-top {
