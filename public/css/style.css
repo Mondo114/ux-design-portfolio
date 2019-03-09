@@ -1348,4 +1348,12 @@ button:focus {
     .big8-banner {
         height: 220px;
     }
+
+    .flexafont-banner {
+        height: 300px;
+    }
+
+    .tulum-banner {
+        height: 300px;
+    }
 }
