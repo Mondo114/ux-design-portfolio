@@ -582,6 +582,22 @@ button:focus {
     padding: 20px;
 }
 
+.microgurt-banner {
+    height: 600px;
+    margin: 160px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/microgurt/microgurt-monitor.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
 .microgurt-background {
     background: rgb(227, 233, 253);
     padding-top: 40px;
@@ -589,9 +605,9 @@ button:focus {
 }
 
 .microgurt-title {
-    padding-top: 40px;
-    color: rgb(24, 19, 29);
-    padding-bottom: 30px;
+    color: rgb(66, 175, 248);
+    padding-top: 60px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
 }
@@ -998,6 +1014,10 @@ button:focus {
         -o-background-size: cover;
         background-size: contain;
     }
+
+    .microgurt-banner {
+        height: 500px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1093,6 +1113,10 @@ button:focus {
 
     .portfolio-container {
         padding-bottom: 60px;
+    }
+
+    .microgurt-banner {
+        height: 400px;
     }
 
     .skill-item {
@@ -1200,6 +1224,10 @@ button:focus {
         /* padding: 20px; */
     }
 
+    .microgurt-banner {
+        height: 300px;
+    }
+
     .project-title {
         font-size: 2.1rem;
     }
@@ -1248,5 +1276,9 @@ button:focus {
 
     .pyramid-banner {
         height: 292px;
+    }
+
+    .microgurt-banner {
+        height: 240px;
     }
 }
