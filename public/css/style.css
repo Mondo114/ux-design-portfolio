@@ -318,6 +318,10 @@ button:focus {
     /* border: 10px solid rgb(24, 19, 29); */
 }
 
+.big8-thumb:hover {
+    opacity: 0.9;
+}
+
 .flexafont-thumb {
     background-image: url(../images/flexafont-thumbnail.jpg);
     background-position: center 50%;
@@ -385,6 +389,26 @@ button:focus {
 
 .btn-portfolio {
     width: 134px;
+}
+
+.btn-weblink {
+    width: 160px;
+    background: rgb(64, 211, 64);
+}
+
+.btn-weblink:hover {
+    width: 160px;
+    background: rgb(91, 241, 91);
+}
+
+.btn-weblink:active {
+    width: 160px;
+    background: rgb(48, 177, 48);
+}
+
+.btn-weblink:focus {
+    width: 160px;
+    background: rgb(48, 177, 48);
 }
 
 #btn-top {
