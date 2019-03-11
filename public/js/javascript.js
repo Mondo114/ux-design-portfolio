@@ -32,10 +32,10 @@ $(document).ready(function () {
     //   })
     // })
 
-    // $('.navbar-collapse div').click(function(){ 
-    //     $('.navbar-collapse').css('height', '0');
-    //     $('.navbar-collapse').removeClass('in');
-    //   });
+    $('.navbar-collapse div').click(function(){ 
+        $('.navbar-collapse').css('height', '0');
+        $('.navbar-collapse').removeClass('in');
+      });
 
     // $(".navbar-collapse div").click(function () {
     //     $(".nav-content").hide();
@@ -48,12 +48,12 @@ $(document).ready(function () {
     //     });
     // });
 
-    // $(function () {
-    //     $(".navbar-toggler").click(function () {
-    //         if ($(".nav-content").is(":hidden"))
-    //             $(".nav-content").show();
-    //     });
-    // });
+    $(function () {
+        $(".navbar-toggler").click(function () {
+            if ($(".nav-content").is(":hidden"))
+                $(".nav-content").show();
+        });
+    });
 
 
 
