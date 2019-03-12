@@ -32,10 +32,10 @@ $(document).ready(function () {
     //   })
     // })
 
-    $('.navbar-collapse div').click(function(){ 
-        $('.navbar-collapse').css('height', '0');
-        $('.navbar-collapse').removeClass('in');
-      });
+    // $('.navbar-collapse div').click(function(){ 
+    //     $('.navbar-collapse').css('height', '0');
+    //     $('.navbar-collapse').removeClass('in');
+    //   });
 
     // $(".navbar-collapse div").click(function () {
     //     $(".nav-content").hide();
@@ -48,12 +48,19 @@ $(document).ready(function () {
     //     });
     // });
 
-    $(function () {
-        $(".navbar-toggler").click(function () {
-            if ($(".nav-content").is(":hidden"))
-                $(".nav-content").show();
-        });
-    });
+    // $(function () {
+    //     $(".navbar-toggler").click(function () {
+    //         if ($(".nav-content").is(":hidden"))
+    //             $(".nav-content").show();
+    //     });
+    // });
+
+    // $("#portfolio-nav").on("click", function (event) {
+    //     $('html,body').animate({
+    //         scrollTop: $("#portfolio-connect").offset().top - 60
+    //     }, 'slow');
+    //     $('.navbar-toggler').click();
+    // });
 
 
 
