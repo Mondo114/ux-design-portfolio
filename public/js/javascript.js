@@ -63,7 +63,6 @@ $(document).ready(function () {
     // });
 
 
-
     // Home Page Links
 
     // Home
@@ -71,6 +70,7 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#home-connect").offset().top - 72
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
     // Portfolio
@@ -78,6 +78,7 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#portfolio-connect").offset().top - 60
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
     // About
@@ -90,9 +91,10 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
-
+   
     // Portfolio Page Links
 
     // Home
@@ -115,6 +117,7 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
 
@@ -135,6 +138,7 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#about-connect").offset().top
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
     // Contact
@@ -142,6 +146,7 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#footer-connect").offset().top
         }, 'slow');
+        $('.navbar-toggler').click();
     });
 
 });
