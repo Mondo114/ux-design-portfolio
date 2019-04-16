@@ -55,12 +55,12 @@ a:hover {
     top: 0;
     width: 100%;
     z-index: 999;
-    background-color: rgb(24, 19, 29);
+    background-color: rgb(20, 19, 29);
     transition: background-color 500ms linear;
 }
 
 /* .nav.scrolled {
-    background-color: rgb(24, 19, 29) !important;
+    background-color: rgb(20, 19, 29) !important;
     transition: background-color 500ms;
 } */
 
@@ -87,16 +87,16 @@ li a {
 }
 
 .bg-dark {
-    background-color: rgb(24, 19, 29) !important;
+    background-color: rgb(20, 19, 29) !important;
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: rgb(24, 19, 29);
+    border-color: rgb(20, 19, 29);
 }
 
 button:focus {
     outline: 1px dotted;
-    outline: 5px auto rgb(24, 19, 29);
+    outline: 5px auto rgb(20, 19, 29);
 }
 
 #home-nav {
@@ -165,6 +165,14 @@ button:focus {
     flex-direction: column;
 }
 
+.banner2 {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .banner-title {
     color: rgb(66, 175, 248);
     font-size: 70px;
@@ -185,12 +193,12 @@ button:focus {
 }
 
 .banner-border {
-    background: rgb(24, 19, 29);
+    background: rgb(20, 19, 29);
 }
 
 .pyramid-banner {
     height: 610px;
-    /* margin-top: 80px; */
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +214,7 @@ button:focus {
 
 .portfolio-title {
     color: rgb(66, 175, 248);
-    /* border-top: 72px solid rgb(24, 19, 29); */
+    /* border-top: 72px solid rgb(20, 19, 29); */
     /* margin-top: 40px; */
 }
 
@@ -232,8 +240,8 @@ button:focus {
 
 .microgurt-row {
     /* background: rgb(169, 163, 175); */
-    background: rgb(114, 100, 128);
-    background-image: url(../images/tile1.png);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -250,8 +258,8 @@ button:focus {
 
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
-    background: rgb(87, 101, 139);
-    background-image: url(../images/tile1.png);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
 }
 
 .haley-row {
@@ -260,8 +268,8 @@ button:focus {
 
 .new2dev-row {
     /* background: rgb(116, 224, 212); */
-    background: rgb(76, 59, 90);
-    background-image: url(../images/tile1.png);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -291,7 +299,7 @@ button:focus {
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 10px solid rgb(24, 19, 29); */
+    /* border: 10px solid rgb(20, 19, 29); */
 }
 
 .thumb:hover {
@@ -315,7 +323,7 @@ button:focus {
     background-position: left 0;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 10px solid rgb(24, 19, 29); */
+    /* border: 10px solid rgb(20, 19, 29); */
 }
 
 .big8-thumb:hover {
@@ -356,14 +364,14 @@ button:focus {
 .btn {
     color: white;
     font-weight: 500;
-    /* background-image: linear-gradient(white 1%, rgb(82, 67, 99) 49%, rgb(24, 19, 29) 50%); */
+    /* background-image: linear-gradient(white 1%, rgb(82, 67, 99) 49%, rgb(20, 19, 29) 50%); */
     background: rgb(66, 175, 248);
     margin: 20px auto 0px auto;
     display: block;
     width: 179px;
     height: 49px;
     box-shadow: none;
-    /* border: 1px solid rgb(24, 19, 29); */
+    /* border: 1px solid rgb(20, 19, 29); */
     transition: 0.5s;
 }
 
@@ -442,7 +450,7 @@ button:focus {
 }
 
 .thumb-title {
-    color: rgb(24, 19, 29);
+    color: rgb(20, 19, 29);
     padding-bottom: 20px;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
@@ -489,9 +497,8 @@ button:focus {
 .footer-section {
     padding-top: 30px;
     text-align: center;
-    background: rgb(24, 19, 29);
+    background: rgb(20, 19, 29);
     height: 414px;
-    border-top: 3px solid rgb(24, 19, 29);
 }
 
 .divider-thin {
@@ -567,14 +574,13 @@ button:focus {
 
 .assignment-row {
     padding: 40px 20px 30px 20px;
-    color: white;
-    background: rgb(51, 69, 117);
-    background-image: url(../images/tile1.png);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
     border-radius: 8px;
 }
 
 .assignment-row h3 {
-    color: coral;
+    color: rgb(30, 81, 156);
 }
 
 .assignment-section {
@@ -592,7 +598,7 @@ button:focus {
 }
 
 .portfolio-background {
-    background: rgb(24, 19, 29);
+    background: rgb(20, 19, 29);
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 8px;
@@ -713,8 +719,8 @@ button:focus {
 
 .startup-row {
     /* padding: 60px 0 60px 0; */
-    background: rgb(40, 97, 89);
-    background-image: url(../images/tile1.png);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
 }
 
 .antlersandacorns-thumb {
@@ -783,8 +789,8 @@ button:focus {
 
 .about-row {
     /* background: rgb(122, 172, 196); */
-    background: rgb(175, 248, 255);
-    background-image: url(../images/tile1.png);
+    /* background: rgb(175, 248, 255); */
+    /* background-image: url(../images/tile1.png); */
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
     background-repeat: no-repeat;
@@ -815,7 +821,7 @@ button:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 120px 40px 0px;
 }
 
 .thin-padding {
@@ -826,13 +832,14 @@ button:focus {
 
 .skills-row {
     padding: 20px 0 20px 0;
-    background: rgb(24, 19, 29);
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
 }
 
 .skills-title {
     color: rgb(66, 175, 248);
     text-align: center;
-    padding: 12px 0 20px 0;
+    padding: 20px 0 20px 0;
     font-family: 'Spinnaker', sans-serif;
 }
 
@@ -845,13 +852,13 @@ button:focus {
 
 .skill-item {
     padding: 20px 100px;
-    color: coral;
+    /* color: coral; */
 }
 
 .education-row {
-    padding: 60px 0 60px 0;
-    background: rgb(51, 69, 117);
-    background-image: url(../images/tile1.png);
+    padding: 0px 0 60px 0;
+    /* background: rgb(51, 69, 117); */
+    /* background-image: url(../images/tile1.png); */
 }
 
 .education-background {
@@ -887,8 +894,9 @@ button:focus {
 }
 
 .development-row {
-    background: white;
     padding: 20px 0 60px 0;
+    background: rgb(176, 217, 245);
+    background-image: url(../images/tile3.png);
 }
 
 .webdev-thumb {
@@ -911,6 +919,9 @@ button:focus {
     .portrait {
         width: 70%;
     }
+    .about-paragraph-format {
+        padding: 20px 60px 20px 20px;
+    }
 }
 
 @media only screen and (max-width: 1500px) {
@@ -932,6 +943,9 @@ button:focus {
 
     .skill-item {
         padding: 10px 80px;
+    }
+    .about-paragraph-format {
+        padding: 0px 40px 0px 0px;
     }
 }
 
@@ -1056,7 +1070,7 @@ button:focus {
     }
 
     /* .portfolio-title {
-        border-top: 30px solid rgb(24, 19, 29);
+        border-top: 30px solid rgb(20, 19, 29);
     } */
 
     .space72 {
@@ -1110,7 +1124,7 @@ button:focus {
     }
 
     .banner-subtitle2 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .thumbnail-format {
@@ -1210,6 +1224,7 @@ button:focus {
 @media only screen and (max-width: 600px) {
     .pyramid-banner {
         height: 390px;
+        margin-bottom: 40px;
     }
 
     .portrait {
@@ -1237,6 +1252,18 @@ button:focus {
         padding-left: 20px !important;
         padding-right: 20px !important;
     } */
+    
+    .development-row {
+        padding: 20px 0 20px 0;
+    }
+
+    .banner2 {
+        margin-bottom: 0px;
+    }
+
+    .banner-subtitle2 {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -1260,7 +1287,7 @@ button:focus {
 
 @media only screen and (max-width: 576px) {
     .footer-section {
-        height: 460px;
+        height: 450px;
     }
 
     .footer-top {
@@ -1294,6 +1321,11 @@ button:focus {
         padding-right: 0;
     }
 
+    .footer-items img {
+        width: 30px;
+        height: 30px;
+    }
+
     .content-structure {
         width: 100%;
         /* padding: 20px; */
@@ -1325,6 +1357,18 @@ button:focus {
 
     .school {
         font-size: 1.1rem;
+    }
+
+    .banner2 {
+        display: none;
+    }
+
+    .banner-subtitle2 {
+        display: none;
+    }
+
+    .pyramid-banner {
+        display: none;
     }
 }
 
