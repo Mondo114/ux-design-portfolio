@@ -1120,10 +1120,10 @@ button:focus {
     }
 
     .banner-subtitle {
-        font-size: 30px;
+        font-size: 24px;
     }
 
-    .banner-subtitle2 {
+    .food-subtitle {
         font-size: 24px;
     }
 
@@ -1261,7 +1261,7 @@ button:focus {
         margin-bottom: 0px;
     }
 
-    .banner-subtitle2 {
+    .food-subtitle {
         font-size: 20px;
     }
 }
@@ -1363,7 +1363,7 @@ button:focus {
         display: none;
     }
 
-    .banner-subtitle2 {
+    .food-subtitle {
         display: none;
     }
 
@@ -1391,10 +1391,6 @@ button:focus {
 @media only screen and (max-width: 359px) {
     .banner-title {
         font-size: 30px;
-    }
-
-    .banner-subtitle {
-        font-size: 24px;
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
