@@ -181,12 +181,13 @@ button:focus {
 }
 
 .banner-subtitle {
+    text-align: center;
     font-size: 50px;
     font-family: 'Spinnaker', sans-serif;
     padding: 20px 10px 20px 10px;
 }
 
-.banner-subtitle2 {
+.food-subtitle {
     font-size: 28px;
     font-family: 'Spinnaker', sans-serif;
     padding: 60px 10px 0px 10px;
@@ -1120,7 +1121,6 @@ button:focus {
 
     .banner-subtitle {
         font-size: 30px;
-        padding: 0;
     }
 
     .banner-subtitle2 {
