@@ -175,9 +175,9 @@ button:focus {
 
 .banner-title {
     color: rgb(66, 175, 248);
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Spinnaker', sans-serif;
-    padding: 100px 10px 20px 10px;
+    padding: 0px 10px 20px 10px;
 }
 
 .banner-subtitle {
