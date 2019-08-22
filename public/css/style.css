@@ -182,7 +182,7 @@ button:focus {
 
 .banner-subtitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 28px;
     font-family: 'Spinnaker', sans-serif;
     padding: 20px 10px 20px 10px;
 }
@@ -242,7 +242,6 @@ button:focus {
 .microgurt-row {
     /* background: rgb(169, 163, 175); */
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
     /* transition: color 0.3s ease-in-out; */
 }
 
@@ -260,7 +259,6 @@ button:focus {
 .flexafont-row {
     /* background: rgb(75, 221, 107); */
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
 }
 
 .haley-row {
@@ -270,7 +268,6 @@ button:focus {
 .new2dev-row {
     /* background: rgb(116, 224, 212); */
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
     /* background: url("../images/radar.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -576,7 +573,6 @@ button:focus {
 .assignment-row {
     padding: 40px 20px 30px 20px;
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
     border-radius: 8px;
 }
 
@@ -721,7 +717,6 @@ button:focus {
 .startup-row {
     /* padding: 60px 0 60px 0; */
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
 }
 
 .antlersandacorns-thumb {
@@ -791,7 +786,6 @@ button:focus {
 .about-row {
     /* background: rgb(122, 172, 196); */
     /* background: rgb(175, 248, 255); */
-    /* background-image: url(../images/tile1.png); */
     /* background: url("../images/redondo.jpg");
     background-position: center 24%;
     background-repeat: no-repeat;
@@ -834,7 +828,6 @@ button:focus {
 .skills-row {
     padding: 20px 0 20px 0;
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
 }
 
 .skills-title {
@@ -859,7 +852,6 @@ button:focus {
 .education-row {
     padding: 0px 0 60px 0;
     /* background: rgb(51, 69, 117); */
-    /* background-image: url(../images/tile1.png); */
 }
 
 .education-background {
@@ -897,7 +889,6 @@ button:focus {
 .development-row {
     padding: 20px 0 60px 0;
     background: rgb(176, 217, 245);
-    background-image: url(../images/tile3.png);
 }
 
 .webdev-thumb {
